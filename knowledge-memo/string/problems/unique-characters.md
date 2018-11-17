@@ -1,10 +1,10 @@
+---
+description: Implement an algorithm to determine if a string has all unique characters.
+---
+
 # unique characters
 
 {% tabs %}
-{% tab title="First Tab" %}
-
-{% endtab %}
-
 {% tab title="Solution" %}
 ```java
 public class Solution {
