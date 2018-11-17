@@ -6,6 +6,7 @@
     * [Problems](knowledge-memo/1.-hash-table/problems/README.md)
       * [hash function](knowledge-memo/1.-hash-table/problems/hash-function.md)
       * [rehashing](knowledge-memo/1.-hash-table/problems/rehashing.md)
+    * [2. LinkedList](knowledge-memo/1.-hash-table/2.-linkedlist.md)
   * [\* String](knowledge-memo/string/README.md)
     * [Problems](knowledge-memo/string/problems/README.md)
       * [unique characters](knowledge-memo/string/problems/unique-characters.md)
