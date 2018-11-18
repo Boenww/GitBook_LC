@@ -41,20 +41,20 @@ public class Solution {
         }
         
         Queue<Integer> queue = new LinkedList<>();
-        Set<Integer> nodes = new HashSet<>();
+        Set<Integer> visited = new HashSet<>();
         queue.offer(0);
         while (!queue.isEmpty()) {
             Integer node = queue.poll();
-            nodes.add(node);
+            visited.add(node);
             for (Integer nb: graph.get(node)) {
-                if (!nodes.contains(nb)) {
+                if (!visited.contains(nb)) {
                     queue.offer(nb);
                 }
             }
         }
         
         //condition 2 connected: bfs all nodes?
-        return nodes.size() == n;
+        return visited.size() == n;
     }
 }
 ```
