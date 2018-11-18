@@ -13,6 +13,7 @@ Two conditions to judge if it is a valid tree
 
 1. If it is acyclic -&gt; relationship between \# of edges and \# of nodes
 2. If it is connected\(there can be two trees which is not a valid tree\): can bfs all nodes?
+3. cannot use count and visited array due to the test case like 4 \[\[0,1\],\[0,2\],\[1,2\]\]
 {% endtab %}
 
 {% tab title="Solution" %}
@@ -39,23 +40,21 @@ public class Solution {
             graph.get(edges[i][1]).add(edges[i][0]);
         }
         
-        boolean[] visited = new boolean[n];
-        int count = 0;
         Queue<Integer> queue = new LinkedList<>();
+        Set<Integer> nodes = new HashSet<>();
         queue.offer(0);
         while (!queue.isEmpty()) {
             Integer node = queue.poll();
-            visited[node] = true;
-            count++;
+            nodes.add(node);
             for (Integer nb: graph.get(node)) {
-                if (!visited[nb]) {
+                if (!nodes.contains(nb)) {
                     queue.offer(nb);
                 }
             }
         }
         
         //condition 2 connected: bfs all nodes?
-        return count == n;
+        return nodes.size() == n;
     }
 }
 ```
