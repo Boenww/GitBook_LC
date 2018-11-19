@@ -11,6 +11,7 @@
   * [\* String](knowledge-memo/string/README.md)
     * [Problems](knowledge-memo/string/problems/README.md)
       * [unique characters](knowledge-memo/string/problems/unique-characters.md)
+      * [permutations](knowledge-memo/string/problems/permutations.md)
 * [Algorithms](algorithms/README.md)
   * [1. BFS](algorithms/1.-bfs/README.md)
     * [When to use BFS](algorithms/1.-bfs/when-to-use-bfs.md)
@@ -45,4 +46,5 @@
       * [median](algorithms/2.-sorting/problems/median.md)
   * [3. Sliding Window](algorithms/3.-sliding-window/README.md)
     * [Problems](algorithms/3.-sliding-window/problems.md)
+  * [4. DFS](algorithms/4.-dfs.md)
 
