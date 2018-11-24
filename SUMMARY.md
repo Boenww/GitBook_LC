@@ -51,4 +51,6 @@
     * [Based on Permutation](algorithms/4.-dfs/based-on-permutation/README.md)
       * [next permutation](algorithms/4.-dfs/based-on-permutation/next-permutation.md)
       * [permutations](algorithms/4.-dfs/based-on-permutation/permutations.md)
+* [Others](others/README.md)
+  * [Euclidean algorithm](others/euclidean-algorithm.md)
 
