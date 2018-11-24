@@ -6,7 +6,7 @@ description: used for solving greatest common divisor
 
 {% tabs %}
 {% tab title="Notes" %}
-The time complexity can be obtained by making an analogy to Fibonacci and mathematical induction. 
+The time complexity can be obtained by making an analogy to Fibonacci and mathematical induction. \([http://blog.sina.com.cn/s/blog\_647d97b10100lf7k.html](http://blog.sina.com.cn/s/blog_647d97b10100lf7k.html)\)
 {% endtab %}
 
 {% tab title="Solution" %}
