@@ -151,3 +151,94 @@ class Solution {
 {% endtab %}
 {% endtabs %}
 
+{% tabs %}
+{% tab title="Notes" %}
+Node A or node B may not exist in tree.
+
+* Bottom–up order is !!! in one-pass method.
+{% endtab %}
+
+{% tab title="Solution" %}
+```java
+public class Solution {
+   //one pass
+    private boolean Afound = false, Bfound = false;
+    public TreeNode lowestCommonAncestor3(TreeNode root, TreeNode A, TreeNode B) {
+        TreeNode res = helper(root, A, B);
+        if (Afound && Bfound) {
+            return res;
+        }
+        
+        return null;
+    }
+    
+    public TreeNode helper(TreeNode root, TreeNode A, TreeNode B) {
+        if (root == null) {
+            return root;
+        }
+    
+        TreeNode left = helper(root.left, A, B);
+        TreeNode right = helper(root.right, A, B);
+        
+        //bottom-up
+        if (root == A || root == B) {
+            Afound = root == A || Afound;
+            Bfound = root == B || Bfound;
+            return root;
+        }
+        
+        if (left != null && right != null) {
+            return root;
+        } else if (left != null) {
+            return left;
+        }
+        
+        return right;
+    }
+    
+    //one more traverse
+    // public TreeNode lowestCommonAncestor3(TreeNode root, TreeNode A, TreeNode B) {
+    //     // write your code here
+    //     Set<TreeNode> nodes = new HashSet<>();
+    //     traverse(root, nodes);
+        
+    //     if (!nodes.contains(A) || !nodes.contains(B)) {
+    //         return null;
+    //     }
+        
+    //     TreeNode res = helper(root, A, B);
+        
+    //     return res;
+    // }
+    
+    // public TreeNode helper(TreeNode root, TreeNode A, TreeNode B) {
+    //     if (root == null || root == A || root == B) {
+    //         return root;
+    //     }
+        
+    //     TreeNode left = helper(root.left, A, B);
+    //     TreeNode right = helper(root.right, A, B);
+        
+    //     if (left != null && right != null) {
+    //         return root;
+    //     } else if (left != null) {
+    //         return left;
+    //     }
+        
+    //     return right;
+    // }
+
+    // public void traverse(TreeNode root, Set<TreeNode> nodes) {
+    //     if (root == null) {
+    //         return;
+    //     }
+        
+    //     traverse(root.left, nodes);
+    //     nodes.add(root);
+    //     traverse(root.right, nodes);
+    // }
+}
+```
+{% endtab %}
+{% endtabs %}
+
