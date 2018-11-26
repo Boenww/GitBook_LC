@@ -57,6 +57,8 @@
     * [Based on Permutation](algorithms/4.-dfs/based-on-permutation/README.md)
       * [next permutation](algorithms/4.-dfs/based-on-permutation/next-permutation.md)
       * [permutations](algorithms/4.-dfs/based-on-permutation/permutations.md)
+  * [5. Two Pointers](algorithms/5.-two-pointers/README.md)
+    * [remove duplicates from sorted array](algorithms/5.-two-pointers/remove-duplicates-from-sorted-array.md)
   * [Others](algorithms/others/README.md)
     * [Euclidean algorithm](algorithms/others/euclidean-algorithm.md)
 
