@@ -8,6 +8,7 @@
       * [rehashing](knowledge-memo/1.-hash-table/problems/rehashing.md)
   * [2. LinkedList](knowledge-memo/2.-linkedlist/README.md)
     * [Problems](knowledge-memo/2.-linkedlist/problems/README.md)
+      * [reverse linked list](knowledge-memo/2.-linkedlist/problems/reverse-linked-list.md)
       * [intersection of two linked lists](knowledge-memo/2.-linkedlist/problems/intersection-of-two-linked-lists.md)
   * [3. Stack and Queue](knowledge-memo/3.-stack-and-queue.md)
   * [4. Tree and Graph](knowledge-memo/4.-tree-and-graph/README.md)

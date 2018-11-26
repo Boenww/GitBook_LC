@@ -8,7 +8,7 @@ description: >-
 
 {% tabs %}
 {% tab title="Notes" %}
-Follow up:
+Follow up: duplicates appeared at most _twice_
 {% endtab %}
 
 {% tab title="Solution" %}
@@ -34,6 +34,25 @@ public class Solution {
     }
 }
 
+//follow up
+public int removeDuplicates(int[] nums) {
+    if (nums == null || nums.length == 0) {
+        return 0;
+    }
+
+    int i = 0, count = 1;
+    for (int j = 1; j < nums.length; j++) {
+        if (nums[i] != nums[j]) {
+            nums[++i] = nums[j];
+            count = 1;
+        } else if (count < 2) {
+            count++;
+            nums[++i] = nums[j];
+        }
+    }
+
+    return i + 1;
+}
 
 ```
 {% endtab %}
