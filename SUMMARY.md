@@ -12,6 +12,7 @@
   * [3. Stack and Queue](knowledge-memo/3.-stack-and-queue.md)
   * [4. Tree and Graph](knowledge-memo/4.-tree-and-graph/README.md)
     * [Problems](knowledge-memo/4.-tree-and-graph/problems/README.md)
+      * [invert binary tree](knowledge-memo/4.-tree-and-graph/problems/invert-binary-tree.md)
       * [lowest common ancestor](knowledge-memo/4.-tree-and-graph/problems/lowest-common-ancestor.md)
   * [\* String](knowledge-memo/string/README.md)
     * [Problems](knowledge-memo/string/problems/README.md)
