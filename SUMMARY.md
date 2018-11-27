@@ -8,6 +8,8 @@
       * [rehashing](knowledge-memo/1.-hash-table/problems/rehashing.md)
   * [2. LinkedList](knowledge-memo/2.-linkedlist/README.md)
     * [Problems](knowledge-memo/2.-linkedlist/problems/README.md)
+      * [remove duplicates from sorted list](knowledge-memo/2.-linkedlist/problems/remove-duplicates-from-sorted-list.md)
+      * [remove duplicates from sorted list II](knowledge-memo/2.-linkedlist/problems/remove-duplicates-from-sorted-list-ii.md)
       * [reverse linked list](knowledge-memo/2.-linkedlist/problems/reverse-linked-list.md)
       * [reverse linked list II](knowledge-memo/2.-linkedlist/problems/reverse-linked-list-ii.md)
       * [intersection of two linked lists](knowledge-memo/2.-linkedlist/problems/intersection-of-two-linked-lists.md)
