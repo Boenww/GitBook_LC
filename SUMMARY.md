@@ -18,6 +18,7 @@
     * [Problems](knowledge-memo/4.-tree-and-graph/problems/README.md)
       * [invert binary tree](knowledge-memo/4.-tree-and-graph/problems/invert-binary-tree.md)
       * [lowest common ancestor](knowledge-memo/4.-tree-and-graph/problems/lowest-common-ancestor.md)
+      * [symmetric tree](knowledge-memo/4.-tree-and-graph/problems/symmetric-tree.md)
   * [\* String](knowledge-memo/string/README.md)
     * [Problems](knowledge-memo/string/problems/README.md)
       * [unique characters](knowledge-memo/string/problems/unique-characters.md)
