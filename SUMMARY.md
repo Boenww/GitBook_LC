@@ -26,6 +26,8 @@
       * [unique characters](knowledge-memo/string/problems/unique-characters.md)
       * [longest substring without repeating characters](knowledge-memo/string/problems/longest-substring-without-repeating-characters.md)
       * [permutations](knowledge-memo/string/problems/permutations.md)
+    * [\* Arrays](knowledge-memo/string/arrays/README.md)
+      * [single number](knowledge-memo/string/arrays/single-number.md)
 * [Algorithms](algorithms/README.md)
   * [1. BFS](algorithms/1.-bfs/README.md)
     * [When to use BFS](algorithms/1.-bfs/when-to-use-bfs.md)
