@@ -26,6 +26,7 @@
       * [unique characters](knowledge-memo/string/problems/unique-characters.md)
       * [longest substring without repeating characters](knowledge-memo/string/problems/longest-substring-without-repeating-characters.md)
       * [permutations](knowledge-memo/string/problems/permutations.md)
+      * [add strings](knowledge-memo/string/problems/add-strings.md)
   * [\* Arrays](knowledge-memo/arrays/README.md)
     * [single number](knowledge-memo/arrays/single-number.md)
     * [minimum increment to make array unique](knowledge-memo/arrays/minimum-increment-to-make-array-unique.md)
