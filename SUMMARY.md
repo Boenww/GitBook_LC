@@ -18,6 +18,7 @@
       * [min stack](knowledge-memo/3.-stack-and-queue/stack/min-stack.md)
   * [4. Tree and Graph](knowledge-memo/4.-tree-and-graph/README.md)
     * [Problems](knowledge-memo/4.-tree-and-graph/problems/README.md)
+      * [traversal](knowledge-memo/4.-tree-and-graph/problems/traversal.md)
       * [invert binary tree](knowledge-memo/4.-tree-and-graph/problems/invert-binary-tree.md)
       * [lowest common ancestor](knowledge-memo/4.-tree-and-graph/problems/lowest-common-ancestor.md)
       * [symmetric tree](knowledge-memo/4.-tree-and-graph/problems/symmetric-tree.md)
