@@ -23,6 +23,7 @@
       * [lowest common ancestor](knowledge-memo/4.-tree-and-graph/problems/lowest-common-ancestor.md)
       * [symmetric tree](knowledge-memo/4.-tree-and-graph/problems/symmetric-tree.md)
       * [maximum depth of binary tree](knowledge-memo/4.-tree-and-graph/problems/maximum-depth-of-binary-tree.md)
+      * [maximum depth of n-ary tree](knowledge-memo/4.-tree-and-graph/problems/maximum-depth-of-n-ary-tree.md)
       * [merge two binary trees](knowledge-memo/4.-tree-and-graph/problems/merge-two-binary-trees.md)
   * [\* String](knowledge-memo/string/README.md)
     * [Problems](knowledge-memo/string/problems/README.md)
