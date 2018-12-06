@@ -80,6 +80,6 @@
   * [5. Two Pointers](algorithms/5.-two-pointers/README.md)
     * [linked list cycle](algorithms/5.-two-pointers/linked-list-cycle.md)
     * [remove duplicates from sorted array](algorithms/5.-two-pointers/remove-duplicates-from-sorted-array.md)
-  * [Others](algorithms/others/README.md)
-    * [Euclidean algorithm](algorithms/others/euclidean-algorithm.md)
+  * [6. Math and Logic](algorithms/6.-math-and-logic/README.md)
+    * [Euclidean algorithm](algorithms/6.-math-and-logic/euclidean-algorithm.md)
 
