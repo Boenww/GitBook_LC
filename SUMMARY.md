@@ -78,6 +78,7 @@
     * [Others](algorithms/4.-dfs/others/README.md)
       * [next closest time](algorithms/4.-dfs/others/next-closest-time.md)
   * [5. Two Pointers](algorithms/5.-two-pointers/README.md)
+    * [move zeroes](algorithms/5.-two-pointers/move-zeroes.md)
     * [linked list cycle](algorithms/5.-two-pointers/linked-list-cycle.md)
     * [remove duplicates from sorted array](algorithms/5.-two-pointers/remove-duplicates-from-sorted-array.md)
   * [6. Math and Logic](algorithms/6.-math-and-logic/README.md)
