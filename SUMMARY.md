@@ -11,6 +11,7 @@
     * [reverse linked list](knowledge-memo/2.-linkedlist/reverse-linked-list.md)
     * [reverse linked list II](knowledge-memo/2.-linkedlist/reverse-linked-list-ii.md)
     * [intersection of two linked lists](knowledge-memo/2.-linkedlist/intersection-of-two-linked-lists.md)
+    * [palindrome linked list](knowledge-memo/2.-linkedlist/palindrome-linked-list.md)
   * [3. Stack and Queue](knowledge-memo/3.-stack-and-queue/README.md)
     * [Stack](knowledge-memo/3.-stack-and-queue/stack/README.md)
       * [min stack](knowledge-memo/3.-stack-and-queue/stack/min-stack.md)
