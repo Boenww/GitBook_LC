@@ -26,6 +26,7 @@
       * [minimum depth of binary tree](knowledge-memo/4.-tree-and-graph/problems/minimum-depth-of-binary-tree.md)
       * [merge two binary trees](knowledge-memo/4.-tree-and-graph/problems/merge-two-binary-trees.md)
       * [binary tree paths](knowledge-memo/4.-tree-and-graph/problems/binary-tree-paths.md)
+      * [find leaves of binary tree](knowledge-memo/4.-tree-and-graph/problems/find-leaves-of-binary-tree.md)
     * [Graph](knowledge-memo/4.-tree-and-graph/graph.md)
   * [\* String](knowledge-memo/string/README.md)
     * [unique characters](knowledge-memo/string/unique-characters.md)
