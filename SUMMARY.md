@@ -84,4 +84,6 @@
     * [remove duplicates from sorted array](algorithms/5.-two-pointers/remove-duplicates-from-sorted-array.md)
   * [6. Math and Logic](algorithms/6.-math-and-logic/README.md)
     * [Euclidean algorithm](algorithms/6.-math-and-logic/euclidean-algorithm.md)
+  * [7. DP](algorithms/dp/README.md)
+    * [house robber](algorithms/dp/house-robber.md)
 
