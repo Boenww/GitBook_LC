@@ -53,7 +53,7 @@ class Solution {
                 return;
             }
             
-            if (s.length() == 1 && s.charAt(0) == '2' && digits[i] > 4) {
+            if (s.length() == 1 && s.charAt(0) == '2' && digits[i] > 3) {
                return;
             }
             
