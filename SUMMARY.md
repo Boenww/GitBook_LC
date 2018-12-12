@@ -21,6 +21,7 @@
       * [invert binary tree](knowledge-memo/4.-tree-and-graph/problems/invert-binary-tree.md)
       * [lowest common ancestor](knowledge-memo/4.-tree-and-graph/problems/lowest-common-ancestor.md)
       * [symmetric tree](knowledge-memo/4.-tree-and-graph/problems/symmetric-tree.md)
+      * [subtree of another tree](knowledge-memo/4.-tree-and-graph/problems/subtree-of-another-tree.md)
       * [balanced binary tree](knowledge-memo/4.-tree-and-graph/problems/balanced-binary-tree.md)
       * [maximum depth of binary tree](knowledge-memo/4.-tree-and-graph/problems/maximum-depth-of-binary-tree.md)
       * [maximum depth of n-ary tree](knowledge-memo/4.-tree-and-graph/problems/maximum-depth-of-n-ary-tree.md)
