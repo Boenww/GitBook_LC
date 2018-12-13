@@ -38,6 +38,7 @@
   * [\* Arrays](knowledge-memo/arrays/README.md)
     * [single number](knowledge-memo/arrays/single-number.md)
     * [minimum increment to make array unique](knowledge-memo/arrays/minimum-increment-to-make-array-unique.md)
+    * [shortest unsorted continuous subarray](knowledge-memo/arrays/shortest-unsorted-continuous-subarray.md)
 * [Algorithms](algorithms/README.md)
   * [1. BFS](algorithms/1.-bfs/README.md)
     * [When to use BFS](algorithms/1.-bfs/when-to-use-bfs.md)
