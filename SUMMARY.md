@@ -30,6 +30,8 @@
       * [binary tree paths](knowledge-memo/4.-tree-and-graph/problems/binary-tree-paths.md)
       * [find leaves of binary tree](knowledge-memo/4.-tree-and-graph/problems/find-leaves-of-binary-tree.md)
     * [Graph](knowledge-memo/4.-tree-and-graph/graph.md)
+    * [BST](knowledge-memo/4.-tree-and-graph/bst/README.md)
+      * [convert bst to greater tree](knowledge-memo/4.-tree-and-graph/bst/convert-bst-to-greater-tree.md)
   * [\* String](knowledge-memo/string/README.md)
     * [unique characters](knowledge-memo/string/unique-characters.md)
     * [longest substring without repeating characters](knowledge-memo/string/longest-substring-without-repeating-characters.md)
