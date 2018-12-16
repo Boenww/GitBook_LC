@@ -2,7 +2,8 @@
 
 {% tabs %}
 {% tab title="Notes" %}
-
+* time: O\(nlogn\)
+* space: O\(n\)
 {% endtab %}
 
 {% tab title="Solution" %}

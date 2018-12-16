@@ -14,7 +14,7 @@ else
 swap i and j, repeat
 ```
 
-* O\(n^2\) worst case\(sorted and pivot chosen as head\), O\(nlogn\) best case
+* time: O\(n^2\) worst case\(sorted and pivot chosen as head\), O\(nlogn\) best case
 * space: O\(logn\)
 * case ==pivot: also swap value -&gt; reduce problem scale and let them be as equal as possible
 {% endtab %}
