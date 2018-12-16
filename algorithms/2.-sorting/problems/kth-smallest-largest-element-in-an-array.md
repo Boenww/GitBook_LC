@@ -19,7 +19,7 @@ public class Solution {
         }
         
         return partition(k - 1, nums, 0, nums.length - 1); // k - 1 !!!
-        //nums.length - k forthe kth largest problem 
+        //nums.length - k for the kth largest problem 
     }
     
     public int partition(int k, int[] nums, int left, int right) {
