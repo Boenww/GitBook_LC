@@ -2,6 +2,18 @@
 
 {% tabs %}
 {% tab title="Notes" %}
+1. determine a pivot 
+
+2. partition \(&lt;= pivot, &gt;= pivot\):
+
+```text
+i -> head, j -> tail
+if i < pivot, right shift i
+if j > pivot, left shift j
+else 
+swap i and j, repeat
+```
+
 * O\(n^2\) worst case\(sorted and pivot chosen as head\), O\(nlogn\) best case
 * space: O\(logn\)
 * case ==pivot: also swap value -&gt; reduce problem scale and let them be as equal as possible
