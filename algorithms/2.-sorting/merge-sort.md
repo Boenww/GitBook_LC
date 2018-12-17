@@ -4,6 +4,8 @@
 {% tab title="Notes" %}
 * time: O\(nlogn\)
 * space: O\(n\)
+* stable
+* local to global
 {% endtab %}
 
 {% tab title="Solution" %}

@@ -57,6 +57,35 @@ public class Solution {
         nums[right] = tmp;
     }
 }
+
+//space: O(1)
+public int kthLargest(int[] nums, int k) {
+    //corner case
+    if (nums == null) {
+        return -1;
+    }
+    
+    int left = 0, right = nums.length - 1;
+    while (left <= right) {
+        int index = left;
+        for (int i = left; i < right; i++) { //pivot = nums[right]
+            if (nums[i] > nums[right]) {
+                swap(nums, i, index++);
+            }
+        }
+        
+        swap(nums, index, right); //the element with index is the (index + 1)th largest element
+        if (index + 1 == k) {
+            return nums[index];
+        } else if (index + 1 < k) { //kth would be in the range index + 1...right
+            left = index + 1;
+        } else {
+            right = index - 1;
+        }
+    }
+    
+    return -1;
+}
 ```
 {% endtab %}
 {% endtabs %}

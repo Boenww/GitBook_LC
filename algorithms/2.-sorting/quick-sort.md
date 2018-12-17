@@ -15,8 +15,10 @@ swap i and j, repeat
 ```
 
 * time: O\(n^2\) worst case\(sorted and pivot chosen as head\), O\(nlogn\) best case
-* space: O\(logn\)
+* space: O\(logn\) -&gt; O\(1\)
 * case ==pivot: also swap value -&gt; reduce problem scale and let them be as equal as possible
+* not stable
+* global to local
 {% endtab %}
 
 {% tab title="Solution" %}
