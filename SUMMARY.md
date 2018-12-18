@@ -86,6 +86,7 @@
     * [Others](algorithms/4.-dfs/others/README.md)
       * [next closest time](algorithms/4.-dfs/others/next-closest-time.md)
   * [5. Two Pointers](algorithms/5.-two-pointers/README.md)
+    * [container with most water](algorithms/5.-two-pointers/container-with-most-water.md)
     * [move zeroes](algorithms/5.-two-pointers/move-zeroes.md)
     * [linked list cycle](algorithms/5.-two-pointers/linked-list-cycle.md)
     * [remove duplicates from sorted array](algorithms/5.-two-pointers/remove-duplicates-from-sorted-array.md)
