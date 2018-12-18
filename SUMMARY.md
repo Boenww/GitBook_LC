@@ -6,6 +6,7 @@
     * [hash function](knowledge-memo/1.-hash-table/hash-function.md)
     * [rehashing](knowledge-memo/1.-hash-table/rehashing.md)
   * [2. LinkedList](knowledge-memo/2.-linkedlist/README.md)
+    * [remove nth node from end](knowledge-memo/2.-linkedlist/remove-nth-node-from-end.md)
     * [remove duplicates from sorted list](knowledge-memo/2.-linkedlist/remove-duplicates-from-sorted-list.md)
     * [remove duplicates from sorted list II](knowledge-memo/2.-linkedlist/remove-duplicates-from-sorted-list-ii.md)
     * [reverse linked list](knowledge-memo/2.-linkedlist/reverse-linked-list.md)
