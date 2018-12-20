@@ -36,13 +36,13 @@ class Solution {
             count[i]++;
         }
         
-        int res = 0, taken = 0;
+        int res = 0, duplicates = 0;
         for (int i = 0; i < A.length; i++) {
             if (count[i] >= 2) {
-                taken += count[i] - 1;
+                duplicates += count[i] - 1;
                 res -= i * (count[i] - 1);
-            } else if (count[i] == 0 && taken > 0) {
-                taken--;
+            } else if (count[i] == 0 && duplicates > 0) {
+                duplicates--;
                 res += i;
             }
         }
