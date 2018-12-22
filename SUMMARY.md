@@ -78,6 +78,7 @@
     * [Problems](algorithms/2.-sorting/problems/README.md)
       * [kth smallest/largest element in an array](algorithms/2.-sorting/problems/kth-smallest-largest-element-in-an-array.md)
       * [median](algorithms/2.-sorting/problems/median.md)
+      * [pancake sorting](algorithms/2.-sorting/problems/pancake-sorting.md)
   * [3. Sliding Window](algorithms/3.-sliding-window/README.md)
     * [window sum](algorithms/3.-sliding-window/window-sum.md)
     * [find all anagrams in a string](algorithms/3.-sliding-window/find-all-anagrams-in-a-string.md)
