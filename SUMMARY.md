@@ -38,6 +38,7 @@
     * [longest substring without repeating characters](knowledge-memo/string/longest-substring-without-repeating-characters.md)
     * [permutations](knowledge-memo/string/permutations.md)
     * [add strings](knowledge-memo/string/add-strings.md)
+    * [group anagrams](knowledge-memo/string/group-anagrams.md)
   * [\* Arrays](knowledge-memo/arrays/README.md)
     * [single number](knowledge-memo/arrays/single-number.md)
     * [minimum increment to make array unique](knowledge-memo/arrays/minimum-increment-to-make-array-unique.md)
