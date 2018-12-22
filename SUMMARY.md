@@ -44,6 +44,7 @@
     * [minimum increment to make array unique](knowledge-memo/arrays/minimum-increment-to-make-array-unique.md)
     * [shortest unsorted continuous subarray](knowledge-memo/arrays/shortest-unsorted-continuous-subarray.md)
     * [degree of an array](knowledge-memo/arrays/degree-of-an-array.md)
+    * [rotate image](knowledge-memo/arrays/rotate-image.md)
 * [Algorithms](algorithms/README.md)
   * [1. BFS](algorithms/1.-bfs/README.md)
     * [When to use BFS](algorithms/1.-bfs/when-to-use-bfs.md)
