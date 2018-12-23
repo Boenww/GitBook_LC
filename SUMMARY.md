@@ -86,6 +86,7 @@
   * [4. DFS](algorithms/4.-dfs/README.md)
     * [Based on Combinations](algorithms/4.-dfs/based-on-combinations/README.md)
       * [letter combinations of a phone number](algorithms/4.-dfs/based-on-combinations/letter-combinations-of-a-phone-number.md)
+      * [combination sum](algorithms/4.-dfs/based-on-combinations/combination-sum.md)
     * [Based on Permutation](algorithms/4.-dfs/based-on-permutation/README.md)
       * [next permutation](algorithms/4.-dfs/based-on-permutation/next-permutation.md)
       * [permutations](algorithms/4.-dfs/based-on-permutation/permutations.md)
