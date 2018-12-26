@@ -63,6 +63,7 @@
         * [search graph nodes](algorithms/1.-bfs/problems/2.-bfs-in-graph/search-graph-nodes.md)
         * [connected component in undirected graph](algorithms/1.-bfs/problems/2.-bfs-in-graph/connected-component-in-undirected-graph.md)
         * [sequence reconstruction](algorithms/1.-bfs/problems/2.-bfs-in-graph/sequence-reconstruction.md)
+        * [shortest path in undirected graph](algorithms/1.-bfs/problems/2.-bfs-in-graph/shortest-path-in-undirected-graph.md)
       * [3. BFS in Matrix](algorithms/1.-bfs/problems/3.-bfs-in-matrix/README.md)
         * [number of islands](algorithms/1.-bfs/problems/3.-bfs-in-matrix/untitled-1.md)
         * [knight shortest path](algorithms/1.-bfs/problems/3.-bfs-in-matrix/untitled.md)
