@@ -37,6 +37,7 @@
   * [\* String](knowledge-memo/string/README.md)
     * [unique characters](knowledge-memo/string/unique-characters.md)
     * [longest substring without repeating characters](knowledge-memo/string/longest-substring-without-repeating-characters.md)
+    * [rotate string](knowledge-memo/string/rotate-string.md)
     * [permutations](knowledge-memo/string/permutations.md)
     * [add strings](knowledge-memo/string/add-strings.md)
     * [group anagrams](knowledge-memo/string/group-anagrams.md)
