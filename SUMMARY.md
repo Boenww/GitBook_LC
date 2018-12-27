@@ -67,6 +67,7 @@
       * [3. BFS in Matrix](algorithms/1.-bfs/problems/3.-bfs-in-matrix/README.md)
         * [number of islands](algorithms/1.-bfs/problems/3.-bfs-in-matrix/untitled-1.md)
         * [knight shortest path](algorithms/1.-bfs/problems/3.-bfs-in-matrix/untitled.md)
+        * [knight shortest path II](algorithms/1.-bfs/problems/3.-bfs-in-matrix/knight-shortest-path-ii.md)
         * [zombie in matrix](algorithms/1.-bfs/problems/3.-bfs-in-matrix/zombie-in-matrix.md)
         * [build post office II](algorithms/1.-bfs/problems/3.-bfs-in-matrix/build-post-office-ii.md)
       * [4. Topological Sorting](algorithms/1.-bfs/problems/4.-topological-sorting/README.md)
