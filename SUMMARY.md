@@ -99,6 +99,8 @@
   * [5. Two Pointers](algorithms/5.-two-pointers/README.md)
     * [Opposite two pointers](algorithms/5.-two-pointers/opposite-two-pointers/README.md)
       * [valid palindrome II](algorithms/5.-two-pointers/opposite-two-pointers/valid-palindrome-ii.md)
+    * [Parallel two pointers](algorithms/5.-two-pointers/parallel-two-pointers/README.md)
+      * [remove duplicate numbers in array](algorithms/5.-two-pointers/parallel-two-pointers/remove-duplicate-numbers-in-array.md)
     * [container with most water](algorithms/5.-two-pointers/container-with-most-water.md)
     * [move zeroes](algorithms/5.-two-pointers/move-zeroes.md)
     * [linked list cycle](algorithms/5.-two-pointers/linked-list-cycle.md)
