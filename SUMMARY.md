@@ -109,6 +109,7 @@
     * [sort colors](algorithms/5.-two-pointers/sort-colors.md)
     * [pancake sorting](algorithms/5.-two-pointers/pancake-sorting.md)
   * [6. Math and Logic](algorithms/6.-math-and-logic/README.md)
+    * [prime factorization](algorithms/6.-math-and-logic/prime-factorization.md)
     * [Euclidean algorithm](algorithms/6.-math-and-logic/euclidean-algorithm.md)
   * [7. DP](algorithms/dp/README.md)
     * [house robber](algorithms/dp/house-robber.md)
