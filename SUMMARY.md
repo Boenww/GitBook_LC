@@ -97,6 +97,8 @@
     * [Others](algorithms/4.-dfs/others/README.md)
       * [next closest time](algorithms/4.-dfs/others/next-closest-time.md)
   * [5. Two Pointers](algorithms/5.-two-pointers/README.md)
+    * [Opposite two pointers](algorithms/5.-two-pointers/opposite-two-pointers/README.md)
+      * [valid palindrome II](algorithms/5.-two-pointers/opposite-two-pointers/valid-palindrome-ii.md)
     * [container with most water](algorithms/5.-two-pointers/container-with-most-water.md)
     * [move zeroes](algorithms/5.-two-pointers/move-zeroes.md)
     * [linked list cycle](algorithms/5.-two-pointers/linked-list-cycle.md)
