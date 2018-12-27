@@ -101,6 +101,7 @@
     * [Parallel two pointers](algorithms/5.-two-pointers/parallel-two-pointers/README.md)
       * [remove duplicate numbers in array](algorithms/5.-two-pointers/parallel-two-pointers/remove-duplicate-numbers-in-array.md)
       * [window sum](algorithms/5.-two-pointers/parallel-two-pointers/window-sum.md)
+      * [two difference](algorithms/5.-two-pointers/parallel-two-pointers/two-difference.md)
     * [container with most water](algorithms/5.-two-pointers/container-with-most-water.md)
     * [move zeroes](algorithms/5.-two-pointers/move-zeroes.md)
     * [linked list cycle](algorithms/5.-two-pointers/linked-list-cycle.md)
