@@ -20,6 +20,7 @@
   * [4. Tree and Graph](knowledge-memo/4.-tree-and-graph/README.md)
     * [Tree](knowledge-memo/4.-tree-and-graph/problems/README.md)
       * [traversal](knowledge-memo/4.-tree-and-graph/problems/traversal.md)
+      * [construct binary tree from traversals](knowledge-memo/4.-tree-and-graph/problems/construct-binary-tree-from-traversals.md)
       * [invert binary tree](knowledge-memo/4.-tree-and-graph/problems/invert-binary-tree.md)
       * [lowest common ancestor](knowledge-memo/4.-tree-and-graph/problems/lowest-common-ancestor.md)
       * [symmetric tree](knowledge-memo/4.-tree-and-graph/problems/symmetric-tree.md)
