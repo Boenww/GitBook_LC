@@ -31,12 +31,13 @@ class Solution {
     }
     
     //bottom-up O(n)
+    public static final int NOT_BALANCED = -1;
     public boolean isBalanced(TreeNode root) {
         if (root == null) {
             return true;
         }
         
-        return getDepth(root) != -1;
+        return getDepth(root) != NOT_BALANCED;
     }
     
     public int getDepth(TreeNode root) {
@@ -46,8 +47,8 @@ class Solution {
         
         int left = getDepth(root.left);
         int right = getDepth(root.right);
-        if (left == -1 || right == -1 || Math.abs(left - right) > 1) {
-            return -1;
+        if (left == NOT_BALANCED || right == NOT_BALANCED || Math.abs(left - right) > 1) {
+            return NOT_BALANCED;
         }
         
         return Math.max(left, right) + 1;
