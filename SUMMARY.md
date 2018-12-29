@@ -35,6 +35,8 @@
     * [BST](knowledge-memo/4.-tree-and-graph/bst/README.md)
       * [validate binary search tree](knowledge-memo/4.-tree-and-graph/bst/validate-binary-search-tree.md)
       * [convert bst to greater tree](knowledge-memo/4.-tree-and-graph/bst/convert-bst-to-greater-tree.md)
+      * [search range in binary search tree](knowledge-memo/4.-tree-and-graph/bst/search-range-in-binary-search-tree.md)
+      * [closest binary search tree value](knowledge-memo/4.-tree-and-graph/bst/closest-binary-search-tree-value.md)
     * [Graph](knowledge-memo/4.-tree-and-graph/graph.md)
   * [\* String](knowledge-memo/string/README.md)
     * [unique characters](knowledge-memo/string/unique-characters.md)
