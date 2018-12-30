@@ -40,6 +40,7 @@
       * [two sum IV - input is a bst](knowledge-memo/4.-tree-and-graph/bst/two-sum-iv-input-is-a-bst.md)
       * [recover binary search tree](knowledge-memo/4.-tree-and-graph/bst/recover-binary-search-tree.md)
       * [insert node in a BST](knowledge-memo/4.-tree-and-graph/bst/insert-node-in-a-bst.md)
+      * [trim a bst](knowledge-memo/4.-tree-and-graph/bst/trim-a-bst.md)
     * [Graph](knowledge-memo/4.-tree-and-graph/graph.md)
   * [\* String](knowledge-memo/string/README.md)
     * [unique characters](knowledge-memo/string/unique-characters.md)
