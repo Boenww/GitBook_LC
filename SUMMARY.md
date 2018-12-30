@@ -38,6 +38,7 @@
       * [search range in binary search tree](knowledge-memo/4.-tree-and-graph/bst/search-range-in-binary-search-tree.md)
       * [closest binary search tree value](knowledge-memo/4.-tree-and-graph/bst/closest-binary-search-tree-value.md)
       * [recover binary search tree](knowledge-memo/4.-tree-and-graph/bst/recover-binary-search-tree.md)
+      * [insert node in a BST](knowledge-memo/4.-tree-and-graph/bst/insert-node-in-a-bst.md)
     * [Graph](knowledge-memo/4.-tree-and-graph/graph.md)
   * [\* String](knowledge-memo/string/README.md)
     * [unique characters](knowledge-memo/string/unique-characters.md)
