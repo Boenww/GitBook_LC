@@ -37,6 +37,7 @@
       * [convert bst to greater tree](knowledge-memo/4.-tree-and-graph/bst/convert-bst-to-greater-tree.md)
       * [search range in binary search tree](knowledge-memo/4.-tree-and-graph/bst/search-range-in-binary-search-tree.md)
       * [closest binary search tree value](knowledge-memo/4.-tree-and-graph/bst/closest-binary-search-tree-value.md)
+      * [two sum IV - input is a bst](knowledge-memo/4.-tree-and-graph/bst/two-sum-iv-input-is-a-bst.md)
       * [recover binary search tree](knowledge-memo/4.-tree-and-graph/bst/recover-binary-search-tree.md)
       * [insert node in a BST](knowledge-memo/4.-tree-and-graph/bst/insert-node-in-a-bst.md)
     * [Graph](knowledge-memo/4.-tree-and-graph/graph.md)
