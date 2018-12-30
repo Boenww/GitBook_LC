@@ -121,4 +121,5 @@
     * [Euclidean algorithm](algorithms/6.-math-and-logic/euclidean-algorithm.md)
   * [7. DP](algorithms/dp/README.md)
     * [house robber](algorithms/dp/house-robber.md)
+    * [longest increasing subsequence](algorithms/dp/longest-increasing-subsequence.md)
 
