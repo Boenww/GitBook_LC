@@ -16,6 +16,7 @@ Besides, extra leading zeros in the IPv6 is also invalid. For example, the addre
 {% tab title="Notes" %}
 * check the number of the delimiter
 * the "octet" could be negative\(overflow\)
+* or to use regular expression
 {% endtab %}
 
 {% tab title="Solution" %}
