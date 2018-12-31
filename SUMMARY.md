@@ -96,6 +96,8 @@
     * [find all anagrams in a string](algorithms/3.-sliding-window/find-all-anagrams-in-a-string.md)
     * [longest substring without repeating characters](algorithms/3.-sliding-window/longest-substring-without-repeating-characters.md)
   * [4. DFS](algorithms/4.-dfs/README.md)
+    * [Tree Based DFS](algorithms/4.-dfs/tree-based-dfs/README.md)
+      * [minimum subtree](algorithms/4.-dfs/tree-based-dfs/minimum-subtree.md)
     * [Based on Combinations](algorithms/4.-dfs/based-on-combinations/README.md)
       * [letter combinations of a phone number](algorithms/4.-dfs/based-on-combinations/letter-combinations-of-a-phone-number.md)
       * [combination sum](algorithms/4.-dfs/based-on-combinations/combination-sum.md)
