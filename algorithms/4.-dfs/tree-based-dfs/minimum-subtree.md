@@ -5,7 +5,7 @@ Given a binary tree, find the subtree with minimum sum. Return the root of the s
 
 {% tabs %}
 {% tab title="Notes" %}
-
+* Similar for the problem of finding the subtree with maximum average but take care with the type of the average, which should not be integer.
 {% endtab %}
 
 {% tab title="Solution" %}
