@@ -48,7 +48,9 @@ public TreeNode lowestCommonAncestor(TreeNode root, TreeNode A, TreeNode B) {
 
 {% tabs %}
 {% tab title="Notes" %}
-Easy version: The node has an extra attribute `parent` which point to the father of itself. The root's parent is null. can use the similar algorithm for finding the intersection of two linked lists.
+Easy version: The node has an extra attribute `parent` which point to the father of itself. The root's parent is null. 
+
+Or may use the similar algorithm for finding the intersection of two linked lists.
 {% endtab %}
 
 {% tab title="Solution" %}
@@ -86,7 +88,7 @@ public ParentTreeNode lowestCommonAncestorII(ParentTreeNode A, ParentTreeNode B)
 
 {% tabs %}
 {% tab title="Notes" %}
-Assume two nodes are exist in tree.
+Assume two nodes exist in tree.
 {% endtab %}
 
 {% tab title="Solution" %}
