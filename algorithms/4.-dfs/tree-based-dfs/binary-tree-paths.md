@@ -1,13 +1,17 @@
 # binary tree paths
 
+Given a binary tree, return all root-to-leaf paths.
+
 {% tabs %}
 {% tab title="Notes" %}
-
+* traverse 
+* dc
 {% endtab %}
 
 {% tab title="Solution" %}
 ```java
 class Solution {
+    //traverse
     //recur 
     public List<String> binaryTreePaths(TreeNode root) {
         List<String> res = new ArrayList<>();
@@ -20,18 +24,17 @@ class Solution {
     }
     
     public void dfs(TreeNode node, List<String> res, String s) {
+        if (node == null) {
+            return;
+        }
+        
         if (node.left == null && node.right == null) {
             res.add(s + node.val);
             return;
         }
-        
-        if (node.left != null) {
-            dfs(node.left, res, s + node.val + "->");
-        }
-        
-        if (node.right != null) {
-            dfs(node.right, res, s + node.val + "->");
-        }
+                
+        dfs(node.left, res, s + node.val + "->");
+        dfs(node.right, res, s + node.val + "->");
     }
     
     //iterative bfs
@@ -63,6 +66,32 @@ class Solution {
             }
         }
         
+        return res;
+    }
+    
+    //dc
+    public List<String> binaryTreePaths(TreeNode root) {
+        if (root == null) {
+            return new ArrayList<>();
+        }
+
+        List<String> left = binaryTreePaths(root.left);
+        List<String> right = binaryTreePaths(root.right);
+
+        List<String> res = new ArrayList<>();
+        for (String path: left) {
+            res.add(root.val + "->" + path);
+        }
+
+        for (String path: right) {
+            res.add(root.val + "->" + path);
+        }
+        
+        //take care for the leaf node
+        if (res.size() == 0) {
+            res.add(root.val + "");
+        }
+
         return res;
     }
 }
