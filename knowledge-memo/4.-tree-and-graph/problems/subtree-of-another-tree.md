@@ -20,7 +20,7 @@ class Solution {
         String sPreorder = getPreorder(s); 
         String tPreorder = getPreorder(t);
         
-        return sPreorder.contains(tPreorder) ;
+        return sPreorder.contains(tPreorder);
     }
     
     public String getPreorder(TreeNode s){
