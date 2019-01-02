@@ -1,4 +1,4 @@
-# 2. Sorting
+# 1. Sorting
 
 ```java
 String[] str = {"a", "A", "b"}; 

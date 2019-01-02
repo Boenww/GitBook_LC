@@ -1,2 +1,2 @@
-# 5. Two Pointers
+# 2. Two Pointers
 
