@@ -63,12 +63,10 @@ public class Solution {
             }
             lastNode = node;
 
-            if (node.right != null) {
-                node = node.right;
-                while (node != null) {
-                    stack.push(node);
-                    node = node.left;
-                }
+            node = node.right;
+            while (node != null) {
+                stack.push(node);
+                node = node.left;
             }
         }
 

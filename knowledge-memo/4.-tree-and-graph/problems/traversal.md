@@ -99,12 +99,11 @@ public List<Integer> inorderTraversal(TreeNode root) {
     while (!stk.isEmpty()) {
         TreeNode node = stk.pop();
         res.add(node.val);
-        if (node.right != null) {
-            node = node.right;
-            while (node != null) {
-                stk.push(node);
-                node = node.left;
-            }
+            
+        node = node.right;
+        while (node != null) {
+            stk.push(node);
+            node = node.left;
         }
     }
     
