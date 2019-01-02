@@ -114,6 +114,7 @@
       * [lowest common ancestor](algorithms/4.-dfs/tree-based-dfs/lowest-common-ancestor.md)
       * [flatten binary tree to linked list](algorithms/4.-dfs/tree-based-dfs/flatten-binary-tree-to-linked-list.md)
       * [bst iterator](algorithms/4.-dfs/tree-based-dfs/bst-iterator.md)
+      * [inorder successor in bst](algorithms/4.-dfs/tree-based-dfs/inorder-successor-in-bst.md)
     * [Based on Combinations](algorithms/4.-dfs/based-on-combinations/README.md)
       * [letter combinations of a phone number](algorithms/4.-dfs/based-on-combinations/letter-combinations-of-a-phone-number.md)
       * [combination sum](algorithms/4.-dfs/based-on-combinations/combination-sum.md)
