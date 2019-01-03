@@ -116,7 +116,7 @@
       * [bst iterator](algorithms/4.-dfs/tree-based-dfs/bst-iterator.md)
       * [inorder successor in bst](algorithms/4.-dfs/tree-based-dfs/inorder-successor-in-bst.md)
     * [Based on Combinations](algorithms/4.-dfs/based-on-combinations/README.md)
-      * [subsets](algorithms/4.-dfs/based-on-combinations/subsets.md)
+      * [subsets I && II](algorithms/4.-dfs/based-on-combinations/subsets.md)
       * [letter combinations of a phone number](algorithms/4.-dfs/based-on-combinations/letter-combinations-of-a-phone-number.md)
       * [combination sum](algorithms/4.-dfs/based-on-combinations/combination-sum.md)
     * [Based on Permutation](algorithms/4.-dfs/based-on-permutation/README.md)
