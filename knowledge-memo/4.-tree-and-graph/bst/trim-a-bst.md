@@ -4,7 +4,8 @@ Given a binary search tree and the lowest and highest boundaries as `L` and `R`,
 
 {% tabs %}
 {% tab title="Notes" %}
-
+* recursive: O\(n\), O\(n\)
+* iterative: O\(n\), O\(1\)
 {% endtab %}
 
 {% tab title="Solution" %}
