@@ -31,6 +31,34 @@ public void helper(TreeNode root, List<Integer> res, int k1, int k2) {
         helper(root.right, res, k1, k2);
     }
 }
+
+//iterative
+public List<Integer> searchRange(TreeNode root, int k1, int k2) {
+    List<Integer> res = new ArrayList<>();
+    Stack<TreeNode> stack = new Stack<>();
+
+    while (root != null) {
+        if (root.val < k1) {
+            root = root.right;
+        } else {
+            stack.push(root);
+            root = root.left;
+        }
+    }
+
+    while (!stack.isEmpty() && stack.peek().val <= k2) {
+        TreeNode node = stack.pop();
+        res.add(node.val);
+
+        node = node.right;
+        while (node != null) {
+            stack.push(node);
+            node = node.left;
+        }
+    }
+
+    return res;
+}
 ```
 {% endtab %}
 {% endtabs %}
