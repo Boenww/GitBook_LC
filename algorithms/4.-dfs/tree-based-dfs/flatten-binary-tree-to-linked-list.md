@@ -4,7 +4,8 @@ Given a binary tree, flatten it to a linked list in preorder traversal in-place.
 
 {% tabs %}
 {% tab title="Notes" %}
-
+* DC: more straight forward
+* Traverse: more points to notice
 {% endtab %}
 
 {% tab title="Solution" %}
@@ -19,11 +20,11 @@ class Solution {
         
         if (lastNode != null) {
             lastNode.left = null;
-            lastNode.right = root;
+            lastNode.right = root; //equals to "root.right = root.left" in the recursion
         }
         
         lastNode = root;
-        TreeNode right = root.right;
+        TreeNode right = root.right; //if not, the second flatten is still flatten(root.left)
         flatten(root.left);
         flatten(right);
     }
