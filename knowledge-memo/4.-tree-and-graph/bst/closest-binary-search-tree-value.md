@@ -100,8 +100,8 @@ class Solution {
             res.add(root.val);
         } else {
             if (Math.abs(root.val - target) < Math.abs(res.get(0) - target)) {
-            res.remove(0);
-            res.add(root.val);
+                res.remove(0);
+                res.add(root.val);
             }
         }
         
