@@ -121,6 +121,7 @@
       * [combination sum I && II](algorithms/4.-dfs/based-on-combinations/combination-sum.md)
       * [palindrome partitioning](algorithms/4.-dfs/based-on-combinations/palindrome-partitioning.md)
       * [wildcard matching](algorithms/4.-dfs/based-on-combinations/wildcard-matching.md)
+      * [regular expression match](algorithms/4.-dfs/based-on-combinations/regular-expression-match.md)
       * [letter combinations of a phone number](algorithms/4.-dfs/based-on-combinations/letter-combinations-of-a-phone-number.md)
     * [Based on Permutation](algorithms/4.-dfs/based-on-permutation/README.md)
       * [next permutation](algorithms/4.-dfs/based-on-permutation/next-permutation.md)
