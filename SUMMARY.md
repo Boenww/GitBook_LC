@@ -127,7 +127,7 @@
       * [letter combinations of a phone number](algorithms/4.-dfs/based-on-combinations/letter-combinations-of-a-phone-number.md)
     * [Based on Permutation](algorithms/4.-dfs/based-on-permutation/README.md)
       * [next permutation](algorithms/4.-dfs/based-on-permutation/next-permutation.md)
-      * [permutations](algorithms/4.-dfs/based-on-permutation/permutations.md)
+      * [permutations I && II](algorithms/4.-dfs/based-on-permutation/permutations.md)
     * [Others](algorithms/4.-dfs/others/README.md)
       * [next closest time](algorithms/4.-dfs/others/next-closest-time.md)
   * [6. Math and Logic](algorithms/6.-math-and-logic/README.md)
