@@ -42,7 +42,7 @@ class Solution {
         int index = 0;
         for (int i = 0; i < allTime.size(); i++) {
             if (allTime.get(i).equals(time)) {
-                index = i;
+                index = i; //can use set to eliminate duplicates initially and break here
             }
         }
         
