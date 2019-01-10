@@ -1,4 +1,6 @@
-# n queens
+# n queens I && II
+
+## I
 
 The _n_-queens puzzle is the problem of placing _n_ queens on an _n_×_n_ chessboard such that no two queens attack each other.
 
@@ -117,4 +119,10 @@ class Solution {
 ```
 {% endtab %}
 {% endtabs %}
+
+## II
+
+solve the \# of placements 
+
+
 
