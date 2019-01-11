@@ -14,7 +14,7 @@ public class Solution {
      */
     //recursive
     public ListNode reverse(ListNode head) {
-        if (head == null || head.next == null) {
+        if (head == null || head.next == null) { //!!!
             return head;
         }
         
