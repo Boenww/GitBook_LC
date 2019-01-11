@@ -1,8 +1,6 @@
----
-description: Implement a function to check if a linked list is a palindrome.
----
-
 # palindrome linked list
+
+Implement a function to check if a linked list is a palindrome.
 
 {% tabs %}
 {% tab title="Notes" %}
