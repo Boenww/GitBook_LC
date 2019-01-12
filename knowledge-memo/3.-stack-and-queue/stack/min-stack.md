@@ -1,18 +1,16 @@
----
-description: >-
-  Design a stack that supports push, pop, top, and retrieving the minimum
-  element in constant time.
----
-
 # min stack
+
+Design a stack that supports push, pop, top, and retrieving the minimum element in constant time.
 
 {% tabs %}
 {% tab title="Notes" %}
-
+* one stack with maintaining min 
+* two stacks
 {% endtab %}
 
 {% tab title="Solution" %}
 ```java
+//one stack
 class MinStack {
     public int min;
     public Stack<Integer> stack;
@@ -47,6 +45,36 @@ class MinStack {
     
     public int getMin() {
         return min;
+    }
+}
+
+//two stacks
+public class MinStack {
+    private Stack<Integer> stack;
+    private Stack<Integer> minStack;
+
+    public MinStack() {
+        stack = new Stack<Integer>();
+        minStack = new Stack<Integer>();
+    }
+
+    public void push(int number) {
+        stack.push(number);
+        if (minStack.empty() == true)
+            minStack.push(number);
+        else if (minStack.peek() >= number) {
+            minStack.push(number);
+        }
+    }
+
+    public int pop() {
+        if (stack.peek().equals(minStack.peek()) ) 
+            minStack.pop();
+        return stack.pop();
+    }
+
+    public int min() {
+        return minStack.peek();
     }
 }
 ```
