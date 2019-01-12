@@ -2,6 +2,10 @@
 
 ![](../../.gitbook/assets/1861542479286_.pic_hd%20%281%29.jpg)
 
+## Get && Set
+
+O\(size of key\)
+
 ## Open Hashing
 
 是指哈希表所基于的数组中，每个位置是一个 Linked List 的头结点。这样冲突的 &lt;key, value&gt; 二元组，就都放在同一个链表中。
