@@ -4,6 +4,7 @@
 * [Data Structures](knowledge-memo/README.md)
   * [1. Hash Table](knowledge-memo/1.-hash-table/README.md)
     * [hash function](knowledge-memo/1.-hash-table/hash-function.md)
+    * [design a hashmap](knowledge-memo/1.-hash-table/design-a-hashmap.md)
     * [rehashing](knowledge-memo/1.-hash-table/rehashing.md)
   * [2. LinkedList](knowledge-memo/2.-linkedlist/README.md)
     * [merge two sorted lists](knowledge-memo/2.-linkedlist/merge-two-sorted-lists.md)
