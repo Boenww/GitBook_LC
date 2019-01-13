@@ -12,6 +12,7 @@
     * [reverse linked list I && II](knowledge-memo/2.-linkedlist/reverse-linked-list.md)
     * [intersection of two linked lists](knowledge-memo/2.-linkedlist/intersection-of-two-linked-lists.md)
     * [palindrome linked list](knowledge-memo/2.-linkedlist/palindrome-linked-list.md)
+    * [lru cache](knowledge-memo/2.-linkedlist/lru-cache.md)
   * [3. Stack and Queue](knowledge-memo/3.-stack-and-queue/README.md)
     * [Stack](knowledge-memo/3.-stack-and-queue/stack/README.md)
       * [implement stack using queues](knowledge-memo/3.-stack-and-queue/stack/implement-stack-using-queues.md)
