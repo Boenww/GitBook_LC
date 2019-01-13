@@ -1,8 +1,6 @@
----
-description: quick select
----
-
 # kth smallest/largest element in an array
+
+quick select
 
 {% tabs %}
 {% tab title="Notes" %}
