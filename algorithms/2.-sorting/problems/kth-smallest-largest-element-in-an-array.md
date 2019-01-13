@@ -1,11 +1,10 @@
 # kth smallest/largest element in an array
 
-quick select
-
 {% tabs %}
 {% tab title="Notes" %}
 * Kth largest: the index will be \(nums.length - k\) in the asc sorted array; kth smallest: the index will be k - 1
 * how to partition properly
+* O\(n\) average O\(n^2\) worst
 {% endtab %}
 
 {% tab title="Solution" %}
