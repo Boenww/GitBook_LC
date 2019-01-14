@@ -94,7 +94,7 @@
     * [When to use BFS](algorithms/1.-bfs/when-to-use-bfs.md)
     * [Problems](algorithms/1.-bfs/problems/README.md)
       * [1. BFS in Binary Tree](algorithms/1.-bfs/problems/1.-bfs-in-binary-tree/README.md)
-        * [binary tree level order traversal](algorithms/1.-bfs/problems/1.-bfs-in-binary-tree/binary-tree-level-order-traversal.md)
+        * [binary tree level order traversal I && II](algorithms/1.-bfs/problems/1.-bfs-in-binary-tree/binary-tree-level-order-traversal.md)
         * [binary tree serialization](algorithms/1.-bfs/problems/1.-bfs-in-binary-tree/binary-tree-serialization.md)
         * [binary tree level order traversal II](algorithms/1.-bfs/problems/1.-bfs-in-binary-tree/binary-tree-level-order-traversal-ii.md)
         * [binary tree zigzag order traversal](algorithms/1.-bfs/problems/1.-bfs-in-binary-tree/binary-tree-zigzag-order-traversal.md)
