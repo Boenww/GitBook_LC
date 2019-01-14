@@ -54,6 +54,10 @@ public class Solution {
             return isEmpty(p, pIndex);
         }
         
+        if (visited[sIndex][pIndex]) {
+            return memo[sIndex][pIndex];
+        }
+        
         char curS = s.charAt(sIndex), curP = p.charAt(pIndex);
         boolean match = false;
         
