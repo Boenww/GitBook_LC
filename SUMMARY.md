@@ -144,7 +144,7 @@
       * [letter combinations of a phone number](algorithms/4.-dfs/others/letter-combinations-of-a-phone-number.md)
       * [word pattern II](algorithms/4.-dfs/others/word-pattern-ii.md)
       * [word ladder II](algorithms/4.-dfs/others/word-ladder-ii.md)
-      * [word search II](algorithms/4.-dfs/others/word-search-ii.md)
+      * [word search I && II](algorithms/4.-dfs/others/word-search-ii.md)
   * [6. Math and Logic](algorithms/6.-math-and-logic/README.md)
     * [prime factorization](algorithms/6.-math-and-logic/prime-factorization.md)
     * [Euclidean algorithm](algorithms/6.-math-and-logic/euclidean-algorithm.md)
