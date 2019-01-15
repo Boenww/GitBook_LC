@@ -28,6 +28,7 @@
       * [implement queue by circular array](knowledge-memo/3.-stack-and-queue/queue/implement-queue-by-circular-array.md)
   * [4. Heap](knowledge-memo/4.-heap/README.md)
     * [heapify](knowledge-memo/4.-heap/heapify.md)
+    * [merge k sorted list](knowledge-memo/4.-heap/merge-k-sorted-list.md)
   * [5. Tree and Graph](knowledge-memo/4.-tree-and-graph/README.md)
     * [Tree](knowledge-memo/4.-tree-and-graph/problems/README.md)
       * [traversal](knowledge-memo/4.-tree-and-graph/problems/traversal.md)
