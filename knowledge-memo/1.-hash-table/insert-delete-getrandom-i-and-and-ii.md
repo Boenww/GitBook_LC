@@ -11,6 +11,7 @@ Design a data structure that supports all following operations in average `O(1)`
 {% tabs %}
 {% tab title="Notes" %}
 * arraylist + hashmap
+* same question: load balancer
 {% endtab %}
 
 {% tab title="Solution" %}
@@ -80,7 +81,7 @@ Duplicate elements are allowed.
 {% tabs %}
 {% tab title="Notes" %}
 * challenge for remove\(val\): change the "list.size\(\) - 1" index in map.get\(val\) would take more time
-* Method to solve: use LinkedHashSet or store the index information in the list\(List&lt;numAndIndex&gt;\)
+* Method to solve: use LinkedHashSet\(DLL internally and next call just returns the head of the Linkedlist which is first element in this case and moves the pointer to next element\) or store the index information in the list\(List&lt;numAndIndex&gt;\)
 {% endtab %}
 
 {% tab title="Solution" %}

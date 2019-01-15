@@ -7,6 +7,7 @@
     * [design a hashmap](knowledge-memo/1.-hash-table/design-a-hashmap.md)
     * [rehashing](knowledge-memo/1.-hash-table/rehashing.md)
     * [insert delete getRandom I && II](knowledge-memo/1.-hash-table/insert-delete-getrandom-i-and-and-ii.md)
+    * [first unique number in a stream](knowledge-memo/1.-hash-table/first-unique-number-in-a-stream.md)
   * [2. LinkedList](knowledge-memo/2.-linkedlist/README.md)
     * [merge two sorted lists](knowledge-memo/2.-linkedlist/merge-two-sorted-lists.md)
     * [remove nth node from end](knowledge-memo/2.-linkedlist/remove-nth-node-from-end.md)
