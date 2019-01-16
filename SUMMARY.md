@@ -30,6 +30,7 @@
     * [heapify](knowledge-memo/4.-heap/heapify.md)
     * [merge k sorted list](knowledge-memo/4.-heap/merge-k-sorted-list.md)
     * [ugly number I && II](knowledge-memo/4.-heap/ugly-number-i-and-and-ii.md)
+    * [k closest points](knowledge-memo/4.-heap/k-closest-points.md)
   * [5. Tree and Graph](knowledge-memo/4.-tree-and-graph/README.md)
     * [Tree](knowledge-memo/4.-tree-and-graph/problems/README.md)
       * [traversal](knowledge-memo/4.-tree-and-graph/problems/traversal.md)

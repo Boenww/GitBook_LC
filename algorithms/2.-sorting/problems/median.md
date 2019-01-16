@@ -1,6 +1,4 @@
----
-description: Just same as the kth problem
----
-
 # median
+
+Just the same as the kth element problem
 
