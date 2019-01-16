@@ -34,6 +34,7 @@
     * [k closest points](knowledge-memo/4.-heap/k-closest-points.md)
     * [top k largest number I && II](knowledge-memo/4.-heap/top-k-largest-number-i-and-and-ii.md)
     * [high five](knowledge-memo/4.-heap/high-five.md)
+    * [find median from data stream](knowledge-memo/4.-heap/find-median-from-data-stream.md)
   * [5. Tree and Graph](knowledge-memo/4.-tree-and-graph/README.md)
     * [Tree](knowledge-memo/4.-tree-and-graph/problems/README.md)
       * [traversal](knowledge-memo/4.-tree-and-graph/problems/traversal.md)
