@@ -36,6 +36,7 @@
     * [top k frequent words](knowledge-memo/4.-heap/top-k-frequent-words.md)
     * [high five](knowledge-memo/4.-heap/high-five.md)
     * [find median from data stream](knowledge-memo/4.-heap/find-median-from-data-stream.md)
+    * [kth smallest number in sorted matrix](knowledge-memo/4.-heap/kth-smallest-number-in-sorted-matrix.md)
   * [5. Tree and Graph](knowledge-memo/4.-tree-and-graph/README.md)
     * [Tree](knowledge-memo/4.-tree-and-graph/problems/README.md)
       * [traversal](knowledge-memo/4.-tree-and-graph/problems/traversal.md)
