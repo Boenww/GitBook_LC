@@ -77,6 +77,8 @@
     * [shortest unsorted continuous subarray](knowledge-memo/arrays/shortest-unsorted-continuous-subarray.md)
     * [degree of an array](knowledge-memo/arrays/degree-of-an-array.md)
     * [rotate image](knowledge-memo/arrays/rotate-image.md)
+    * [min/max subarray sum](knowledge-memo/arrays/min-max-subarray-sum.md)
+    * [subarray sum/closest](knowledge-memo/arrays/subarray-sum-closest.md)
 * [Algorithms](algorithms/README.md)
   * [1. Sorting](algorithms/2.-sorting/README.md)
     * [Quick Sort](algorithms/2.-sorting/quick-sort.md)
