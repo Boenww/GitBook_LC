@@ -70,7 +70,7 @@
     * [rotate string](knowledge-memo/string/rotate-string.md)
     * [permutations](knowledge-memo/string/permutations.md)
     * [add strings](knowledge-memo/string/add-strings.md)
-    * [group anagrams](knowledge-memo/string/group-anagrams.md)
+    * [49. group anagrams](knowledge-memo/string/group-anagrams.md)
     * [largest number](knowledge-memo/string/largest-number.md)
   * [\* Arrays](knowledge-memo/arrays/README.md)
     * [single number](knowledge-memo/arrays/single-number.md)
