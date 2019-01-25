@@ -47,7 +47,6 @@ class MyHashMap {
             head = head.next;
         }
         
-        
         if (head.next == null) { //
             head.next = new ListNode(key, value);
         } else {
