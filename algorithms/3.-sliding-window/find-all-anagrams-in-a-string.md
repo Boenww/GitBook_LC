@@ -21,7 +21,8 @@ The substring with start index = 6 is "bac", which is an anagram of "abc".
 
 {% tabs %}
 {% tab title="Notes" %}
-
+* Sliding window O\(n\)
+* brute force O\(nk\), k is the length of p
 {% endtab %}
 
 {% tab title="Solution" %}
