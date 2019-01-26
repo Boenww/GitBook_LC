@@ -106,7 +106,7 @@
     * [sort colors](algorithms/5.-two-pointers/sort-colors.md)
     * [pancake sorting](algorithms/5.-two-pointers/pancake-sorting.md)
   * [3. Sliding Window](algorithms/3.-sliding-window/README.md)
-    * [find all anagrams in a string](algorithms/3.-sliding-window/find-all-anagrams-in-a-string.md)
+    * [438. find all anagrams in a string](algorithms/3.-sliding-window/find-all-anagrams-in-a-string.md)
     * [longest substring without repeating characters](algorithms/3.-sliding-window/longest-substring-without-repeating-characters.md)
   * [4. BFS](algorithms/1.-bfs/README.md)
     * [When to use BFS & b-bfs](algorithms/1.-bfs/when-to-use-bfs.md)
