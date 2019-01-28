@@ -20,6 +20,7 @@ return `[0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11]`.
 * divide and conquer 
 * bottom up
 * O\(nlogk\)
+* [merge k sorted interval lists](../interval/577.-merge-k-sorted-interval-lists.md)
 {% endtab %}
 
 {% tab title="Solution" %}
