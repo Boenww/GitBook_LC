@@ -1,4 +1,4 @@
-# merge k sorted list
+# 23. merge k sorted list
 
 Merge _k_ sorted linked lists and return it as one sorted list.
 
