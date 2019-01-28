@@ -21,7 +21,7 @@ return `-1->2->4->null`.
 * PriorityQueue
 * divide and conquer 
 * bottom up
-* O\(nlogk\)
+* O\(nlogk\): n: \# of all elements
 {% endtab %}
 
 {% tab title="Solution" %}
