@@ -10,6 +10,7 @@
     * [first unique number in a stream](knowledge-memo/1.-hash-table/first-unique-number-in-a-stream.md)
     * [128. longest consecutive sequence](knowledge-memo/1.-hash-table/128.-longest-consecutive-sequence.md)
   * [2. LinkedList](knowledge-memo/2.-linkedlist/README.md)
+    * [partition lists](knowledge-memo/2.-linkedlist/partition-lists.md)
     * [merge two sorted lists](knowledge-memo/2.-linkedlist/merge-two-sorted-lists.md)
     * [remove nth node from end](knowledge-memo/2.-linkedlist/remove-nth-node-from-end.md)
     * [remove duplicates from sorted list I && II](knowledge-memo/2.-linkedlist/remove-duplicates-from-sorted-list.md)
