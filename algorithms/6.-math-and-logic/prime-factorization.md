@@ -1,4 +1,4 @@
-# prime factorization
+# 235. prime factorization
 
 Prime factorize a given integer.
 

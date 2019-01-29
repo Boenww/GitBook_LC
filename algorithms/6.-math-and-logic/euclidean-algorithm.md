@@ -1,8 +1,6 @@
----
-description: used for solving greatest common divisor
----
-
 # Euclidean algorithm
+
+used for solving greatest common divisor\(845.\) 
 
 {% tabs %}
 {% tab title="Notes" %}
