@@ -1,8 +1,6 @@
----
-description: '# of connected-one areas'
----
-
 # number of islands
+
+ \# of connected-one areas
 
 {% tabs %}
 {% tab title="Notes" %}
