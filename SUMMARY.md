@@ -90,6 +90,8 @@
     * [57. insert intervals](knowledge-memo/interval/57.-insert-intervals.md)
     * [577. merge k sorted interval lists](knowledge-memo/interval/577.-merge-k-sorted-interval-lists.md)
     * [435. non-overlapping intervals](knowledge-memo/interval/435.-non-overlapping-intervals.md)
+  * [\* binary indexed tree](knowledge-memo/binary-indexed-tree/README.md)
+    * [303/304/307/308. range sum query](knowledge-memo/binary-indexed-tree/303-304-307-308.-range-sum-query.md)
 * [Algorithms](algorithms/README.md)
   * [1. Sorting](algorithms/2.-sorting/README.md)
     * [Quick Sort](algorithms/2.-sorting/quick-sort.md)
