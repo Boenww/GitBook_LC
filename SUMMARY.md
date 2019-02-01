@@ -66,6 +66,7 @@
       * [kth smallest element in bst](knowledge-memo/4.-tree-and-graph/bst/kth-smallest-element-in-bst.md)
     * [Graph](knowledge-memo/4.-tree-and-graph/graph.md)
   * [\* String](knowledge-memo/string/README.md)
+    * [28. implement strStr](knowledge-memo/string/28.-implement-strstr.md)
     * [valid ip address](knowledge-memo/string/valid-ip-address.md)
     * [unique characters](knowledge-memo/string/unique-characters.md)
     * [longest substring without repeating characters](knowledge-memo/string/longest-substring-without-repeating-characters.md)
