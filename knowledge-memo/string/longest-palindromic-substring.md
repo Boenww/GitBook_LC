@@ -21,41 +21,7 @@ Output: "bb"
 {% tab title="Solution" %}
 ```java
 public class Solution {
-     //dp: Time/Space O(n^2)
-     //dp[i][j]: if the substring from i to j is palindrome
-     public String longestPalindrome(String s) {
-         if (s == null || s.length() == 0) {
-             return "";
-         }
-         
-         int n = s.length(), len = 1, start = 0;
-         boolean[][] dp = new boolean[n][n];
-         for (int i = 0; i < n - 1; i++) {
-             dp[i][i] = true;
-         }
-         
-         for (int i = 0; i < n - 1; i++) {
-             dp[i][i + 1] = s.charAt(i) == s.charAt(i + 1);
-             if (dp[i][i + 1]) {
-                 len = 2;
-                 start = i;
-             }
-         }
-         
-         for (int i = n - 1; i >= 0; i--) {
-             for (int j = i + 2; j < n; j++) {
-                dp[i][j] = dp[i + 1][j - 1] && s.charAt(i) == s.charAt(j);
-                if (dp[i][j] == true && j - i + 1 > len) {
-                    start = i;
-                    len = j - i + 1;
-                }
-             }
-         }
-         
-         return s.substring(start, start + len);
-     }
-     
-     //expand around center(2n - 1): O(n^2), Space O(1)
+    //expand around center(2n - 1): O(n^2), Space O(1)
     public String longestPalindrome(String s) {
         if (s == null || s.length() < 2) {
             return s;
@@ -94,6 +60,28 @@ public class Solution {
         }
         
         return len;
+    }
+    
+     //dp: Time/Space O(n^2)
+     //dp[i][j]: if the substring from i to j is palindrome
+     public String longestPalindrome(String s) {
+        if (s == null || s.length() < 2) {
+            return s;
+        }
+        
+        int n = s.length(), start = 0, len = 0;
+        boolean[][] dp = new boolean[n][n];
+        for (int i = n - 1; i >= 0; i--) {
+            for (int j = i; j < n; j++) {                 
+                dp[i][j] = s.charAt(i) == s.charAt(j) && (j - i < 2 || dp[i + 1][j - 1]);
+                if (dp[i][j] && j - i + 1 > len) {
+                    len = j - i + 1;
+                    start = i;
+                }
+            }
+        }
+        
+        return s.substring(start, start + len);
     }
 }
 ```
