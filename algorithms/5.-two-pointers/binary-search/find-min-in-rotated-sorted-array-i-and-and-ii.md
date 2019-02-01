@@ -53,7 +53,7 @@ public int findMin(int[] nums) {
     int left = 0, right = nums.length - 1;
     while (left < right) {
         int mid = left + (right - left) / 2;
-        if (nums[mid] == nums[right]) {
+        if (nums[mid] == nums[right]) { //no idea, but we can eliminate nums[right]
             right--;
         } else if (nums[mid] < nums[right]) {
             right = mid;
