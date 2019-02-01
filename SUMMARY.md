@@ -182,4 +182,5 @@
     * [longest increasing subsequence](algorithms/dp/longest-increasing-subsequence.md)
     * [123/188. best time to buy and sell stock III && IV](algorithms/dp/123-188.-best-time-to-buy-and-sell-stock-iii-and-and-iv.md)
   * [8. Bit Manipulation](algorithms/8.-bit-manipulation.md)
+  * [9. Greedy](algorithms/9.-greedy.md)
 
