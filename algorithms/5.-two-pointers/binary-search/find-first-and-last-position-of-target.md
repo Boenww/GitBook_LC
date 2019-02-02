@@ -1,4 +1,4 @@
-# find first and last position of target
+# 34. find first and last position of target
 
 Given an array of integers `nums` sorted in ascending order, find the starting and ending position of a given `target` value.
 

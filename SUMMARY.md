@@ -107,7 +107,7 @@
       * [sort colors II](algorithms/2.-sorting/problems/sort-colors-ii.md)
   * [2. Two Pointers](algorithms/5.-two-pointers/README.md)
     * [binary search](algorithms/5.-two-pointers/binary-search/README.md)
-      * [find first and last position of target](algorithms/5.-two-pointers/binary-search/find-first-and-last-position-of-target.md)
+      * [34. find first and last position of target](algorithms/5.-two-pointers/binary-search/find-first-and-last-position-of-target.md)
       * [find min in rotated sorted array I && II](algorithms/5.-two-pointers/binary-search/find-min-in-rotated-sorted-array-i-and-and-ii.md)
       * [74. search a 2D matrix](algorithms/5.-two-pointers/binary-search/74.-search-a-2d-matrix.md)
     * [Opposite two pointers](algorithms/5.-two-pointers/opposite-two-pointers/README.md)
