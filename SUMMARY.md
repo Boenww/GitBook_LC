@@ -182,6 +182,7 @@
   * [6. Math and Logic](algorithms/6.-math-and-logic/README.md)
     * [235. prime factorization](algorithms/6.-math-and-logic/prime-factorization.md)
     * [Euclidean algorithm](algorithms/6.-math-and-logic/euclidean-algorithm.md)
+    * [50. pow\(x, n\)](algorithms/6.-math-and-logic/50.-pow-x-n.md)
   * [7. DP](algorithms/dp/README.md)
     * [house robber](algorithms/dp/house-robber.md)
     * [longest increasing subsequence](algorithms/dp/longest-increasing-subsequence.md)
