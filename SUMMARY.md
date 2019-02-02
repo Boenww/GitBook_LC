@@ -71,7 +71,7 @@
     * [unique characters](knowledge-memo/string/unique-characters.md)
     * [longest substring without repeating characters](knowledge-memo/string/longest-substring-without-repeating-characters.md)
     * [5. longest palindromic substring](knowledge-memo/string/longest-palindromic-substring.md)
-    * [rotate string](knowledge-memo/string/rotate-string.md)
+    * [8. rotate string](knowledge-memo/string/rotate-string.md)
     * [permutations](knowledge-memo/string/permutations.md)
     * [add strings](knowledge-memo/string/add-strings.md)
     * [49. group anagrams](knowledge-memo/string/group-anagrams.md)

@@ -1,10 +1,11 @@
-# rotate string
+# 8. rotate string
 
 Given a string and an offset, rotate string by offset. \(rotate from left to right\)
 
 {% tabs %}
 {% tab title="Notes" %}
 * reverse three times with constant extra space
+* same method to solve "39. recover rotated sorted array"
 {% endtab %}
 
 {% tab title="Solution" %}
@@ -32,4 +33,6 @@ public void reverse(char[] chars, int left, int right) {
 ```
 {% endtab %}
 {% endtabs %}
+
+
 
