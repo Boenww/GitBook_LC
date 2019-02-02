@@ -1,6 +1,4 @@
-# \* Complexity
-
-## Time Complexity
+# time complexity
 
 时间复杂度定性地描述了一个算法的运行时间，与问题规模n正相关，使用O\(poly\(n\)\)表示。
 
@@ -96,5 +94,5 @@ O\(n\)
 | T\(n\) = 2 \* T\(n / 2\) + O\(1\) | O\(n\) |  |
 | T\(n\) = 2 \* T\(n / 2\) + O\(n\) | O\(nlogn\) | O\(n + nlogn\) |
 
-## Space Complexity
+## 
 
