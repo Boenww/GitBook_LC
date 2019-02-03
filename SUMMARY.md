@@ -82,6 +82,7 @@
     * [shortest unsorted continuous subarray](knowledge-memo/arrays/shortest-unsorted-continuous-subarray.md)
     * [degree of an array](knowledge-memo/arrays/degree-of-an-array.md)
     * [rotate image](knowledge-memo/arrays/rotate-image.md)
+    * [73. set matrix zeroes](knowledge-memo/arrays/73.-set-matrix-zeroes.md)
     * [min/max subarray sum](knowledge-memo/arrays/min-max-subarray-sum.md)
     * [subarray sum/closest](knowledge-memo/arrays/subarray-sum-closest.md)
     * [793. intersection of arrays](knowledge-memo/arrays/793.-intersection-of-arrays.md)
