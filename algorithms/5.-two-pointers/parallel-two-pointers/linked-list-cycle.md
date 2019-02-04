@@ -1,8 +1,12 @@
-# linked list cycle
+# 141/142. linked list cycle I && II
+
+## I
+
+Given a linked list, determine if it has a cycle in it.
 
 {% tabs %}
 {% tab title="Notes" %}
-Follow up: find the node where the cycle begins.
+
 {% endtab %}
 
 {% tab title="Solution" %}
@@ -26,7 +30,21 @@ public class Solution {
         return true;
     }
 }
+```
+{% endtab %}
+{% endtabs %}
 
+## II
+
+Given a linked list, return the node where the cycle begins. If there is no cycle, return `null`.
+
+{% tabs %}
+{% tab title="Notes" %}
+
+{% endtab %}
+
+{% tab title="Solution" %}
+```java
 //Follow up
 public ListNode detectCycle(ListNode head) {
     if (head == null || head.next == null) {
