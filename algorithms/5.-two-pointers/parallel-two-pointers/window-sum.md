@@ -1,4 +1,8 @@
-# window sum
+---
+description: lintcode
+---
+
+# 604. window sum
 
 Given an array of n integers, and a moving window\(size k\), move the window at each iteration from the start of the array, find the sum of the element inside the window at each moving.
 
@@ -10,14 +14,9 @@ Given an array of n integers, and a moving window\(size k\), move the window at 
 {% tab title="Solution" %}
 ```java
 public class Solution {
-    /**
-     * @param nums: a list of integers.
-     * @param k: length of window.
-     * @return: the sum of the element inside the window at each moving.
-     */
     public int[] winSum(int[] nums, int k) {
         if (nums == null || k <= 0 || k > nums.length) {
-            return new int[]{};
+            return new int[0];
         }
         
         int[] res = new int[nums.length - k + 1];
@@ -28,8 +27,7 @@ public class Solution {
         res[index++] = sum;
         
         while (index < res.length) {
-            sum -= nums[start++];
-            sum += nums[cur++];
+            sum = sum + nums[cur++] - nums[start++];
             res[index++] = sum;
         }
         
