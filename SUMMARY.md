@@ -118,7 +118,7 @@
       * [521. remove duplicate numbers in array](algorithms/5.-two-pointers/parallel-two-pointers/remove-duplicate-numbers-in-array.md)
       * [remove duplicates from sorted array](algorithms/5.-two-pointers/parallel-two-pointers/remove-duplicates-from-sorted-array.md)
       * [604. window sum](algorithms/5.-two-pointers/parallel-two-pointers/window-sum.md)
-      * [two difference](algorithms/5.-two-pointers/parallel-two-pointers/two-difference.md)
+      * [610. two difference - difference equals to target](algorithms/5.-two-pointers/parallel-two-pointers/two-difference.md)
       * [move zeroes](algorithms/5.-two-pointers/parallel-two-pointers/move-zeroes.md)
       * [linked list cycle](algorithms/5.-two-pointers/parallel-two-pointers/linked-list-cycle.md)
     * [container with most water](algorithms/5.-two-pointers/container-with-most-water.md)

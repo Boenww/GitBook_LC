@@ -1,4 +1,8 @@
-# two difference
+---
+description: lintcode
+---
+
+# 610. two difference - difference equals to target
 
 Given an array of integers, find two numbers that their `difference` equals to a target value.  
 where index1 must be less than index2. Please note that your returned answers \(both index1 and index2\) are NOT zero-based. It's guaranteed there is only one available solution.
@@ -24,7 +28,7 @@ public class Solution {
         target = Math.abs(target);
         int i = 0, j = 1;
         while (i < j && j < nums.length) {
-            while (i == j || (j < nums.length && numsCopy[j] - numsCopy[i] < target)) {
+            while (j < nums.length && numsCopy[j] - numsCopy[i] < target) {
                 j++;
             }
             
