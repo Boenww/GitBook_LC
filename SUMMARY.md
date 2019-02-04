@@ -112,7 +112,7 @@
       * [find min in rotated sorted array I && II](algorithms/5.-two-pointers/binary-search/find-min-in-rotated-sorted-array-i-and-and-ii.md)
       * [74. search a 2D matrix](algorithms/5.-two-pointers/binary-search/74.-search-a-2d-matrix.md)
     * [Opposite two pointers](algorithms/5.-two-pointers/opposite-two-pointers/README.md)
-      * [680. valid palindrome II](algorithms/5.-two-pointers/opposite-two-pointers/valid-palindrome-ii.md)
+      * [125/680. valid palindrome I && II](algorithms/5.-two-pointers/opposite-two-pointers/valid-palindrome-ii.md)
     * [Parallel two pointers](algorithms/5.-two-pointers/parallel-two-pointers/README.md)
       * [remove duplicate numbers in array](algorithms/5.-two-pointers/parallel-two-pointers/remove-duplicate-numbers-in-array.md)
       * [remove duplicates from sorted array](algorithms/5.-two-pointers/parallel-two-pointers/remove-duplicates-from-sorted-array.md)
