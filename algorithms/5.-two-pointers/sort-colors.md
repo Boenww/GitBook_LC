@@ -1,4 +1,4 @@
-# sort colors
+# 75. sort colors
 
 Given an array with _n_ objects colored _red_, _white_ or _blue_, sort them so that objects of the same color are adjacent, with the colors in the order red, white and blue. Only one pass using constant space.
 

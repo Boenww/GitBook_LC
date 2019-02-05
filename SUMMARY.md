@@ -123,7 +123,7 @@
       * [141/142. linked list cycle I && II](algorithms/5.-two-pointers/parallel-two-pointers/linked-list-cycle.md)
       * [move zeroes](algorithms/5.-two-pointers/parallel-two-pointers/move-zeroes.md)
     * [container with most water](algorithms/5.-two-pointers/container-with-most-water.md)
-    * [sort colors](algorithms/5.-two-pointers/sort-colors.md)
+    * [75. sort colors](algorithms/5.-two-pointers/sort-colors.md)
     * [969. pancake sorting](algorithms/5.-two-pointers/pancake-sorting.md)
   * [3. Sliding Window](algorithms/3.-sliding-window/README.md)
     * [438. find all anagrams in a string](algorithms/3.-sliding-window/find-all-anagrams-in-a-string.md)
