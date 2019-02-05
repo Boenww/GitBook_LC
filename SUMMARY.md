@@ -129,7 +129,7 @@
     * [438. find all anagrams in a string](algorithms/3.-sliding-window/find-all-anagrams-in-a-string.md)
     * [longest substring without repeating characters](algorithms/3.-sliding-window/longest-substring-without-repeating-characters.md)
   * [4. BFS](algorithms/1.-bfs/README.md)
-    * [When to use BFS & b-bfs](algorithms/1.-bfs/when-to-use-bfs.md)
+    * [When to use BFS](algorithms/1.-bfs/when-to-use-bfs.md)
     * [Problems](algorithms/1.-bfs/problems/README.md)
       * [1. BFS in Binary Tree](algorithms/1.-bfs/problems/1.-bfs-in-binary-tree/README.md)
         * [binary tree level order traversal I && II](algorithms/1.-bfs/problems/1.-bfs-in-binary-tree/binary-tree-level-order-traversal.md)
