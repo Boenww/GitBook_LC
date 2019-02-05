@@ -1,8 +1,6 @@
----
-description: 'Use flip(arr, i) function to sort the array.'
----
+# 969. pancake sorting
 
-# pancake sorting
+Use flip\(arr, i\) function to sort the array.
 
 {% tabs %}
 {% tab title="Notes" %}
@@ -25,16 +23,16 @@ public class Solution {
         }
         
         int end = array.length - 1;
-        while (end > 0) {
+        for (int i = array.length - 1; i >= 0; i--) {
             int max = Integer.MIN_VALUE, index = 0;
-            for (int i = 0; i <= end; i++) {
-                if (array[i] > max) {
-                    max = array[i];
-                    index = i;
+            for (int j = 0; i <= i; j++) {
+                if (array[j] > max) {
+                    max = array[j];
+                    index = j;
                 }
             }
             flip(array, index);
-            flip(array, end--);
+            flip(array, i);
         }
     }
 }
