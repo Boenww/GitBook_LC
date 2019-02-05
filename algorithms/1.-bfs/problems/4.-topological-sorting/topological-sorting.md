@@ -1,4 +1,8 @@
-# topological sorting
+---
+description: lintcode
+---
+
+# 127. topological sorting
 
 {% tabs %}
 {% tab title="Notes" %}
@@ -27,11 +31,11 @@ public class Solution {
 
 		for (DirectedGraphNode node: graph) {
 			for (DirectedGraphNode nb: node.neighbors) {
-				if (map.containsKey(nb)) {
-					map.put(nb, map.get(nb) + 1);
-				} else {
-					map.put(nb, 1);
+				if (!map.containsKey(nb)) {
+					map.put(nb, 0);
 				}
+				
+				map.put(nb, map.get(nb) + 1);
 			}
 		}
 
@@ -46,9 +50,10 @@ public class Solution {
 			DirectedGraphNode node = queue.poll();
 			res.add(node);
 			for (DirectedGraphNode nb: node.neighbors) {
-				if (map.get(nb) - 1 == 0) {
+				if (map.get(nb) == 1) {
 					queue.offer(nb);
 				}
+				
 				map.put(nb, map.get(nb) - 1);
 			}
 		}

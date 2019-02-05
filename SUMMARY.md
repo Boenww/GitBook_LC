@@ -151,7 +151,7 @@
         * [zombie in matrix](algorithms/1.-bfs/problems/3.-bfs-in-matrix/zombie-in-matrix.md)
         * [build post office II](algorithms/1.-bfs/problems/3.-bfs-in-matrix/build-post-office-ii.md)
       * [4. Topological Sorting](algorithms/1.-bfs/problems/4.-topological-sorting/README.md)
-        * [topological sorting](algorithms/1.-bfs/problems/4.-topological-sorting/topological-sorting.md)
+        * [127. topological sorting](algorithms/1.-bfs/problems/4.-topological-sorting/topological-sorting.md)
         * [course schedule I && II](algorithms/1.-bfs/problems/4.-topological-sorting/course-schedule-i-and-and-ii.md)
         * [alien dictionary](algorithms/1.-bfs/problems/4.-topological-sorting/alien-dictionary.md)
         * [sequence reconstruction](algorithms/1.-bfs/problems/4.-topological-sorting/sequence-reconstruction.md)

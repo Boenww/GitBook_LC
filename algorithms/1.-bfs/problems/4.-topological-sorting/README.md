@@ -1,10 +1,8 @@
----
-description: 拓扑排序是对有向无环图(dag)的顶点的一种排序，它使得如果存在一条从顶点A到顶点B的路径，那么在排序中B出现在A的后面且每个顶点出现且只出现一次。
----
-
 # 4. Topological Sorting
 
 ## Concepts
+
+拓扑排序是对有向无环图\(dag\)的顶点的一种排序，它使得如果存在一条从顶点A到顶点B的路径，那么在排序中B出现在A的后面且每个顶点出现且只出现一次。
 
 * In-degree and out-degree
 * It's not traditional sorting algorithm; one graph could have multiple topological orders and also could have no one topological order
