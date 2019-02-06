@@ -1,8 +1,6 @@
----
-description: 'Given a binary tree, return the required traversal of its nodes'' values.'
----
-
 # traversal
+
+Given a binary tree, return the required traversal of its nodes' values.
 
 ## 144. Preorder
 

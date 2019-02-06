@@ -49,7 +49,7 @@
       * [symmetric tree](knowledge-memo/4.-tree-and-graph/problems/symmetric-tree.md)
       * [subtree of another tree](knowledge-memo/4.-tree-and-graph/problems/subtree-of-another-tree.md)
       * [balanced binary tree](knowledge-memo/4.-tree-and-graph/problems/balanced-binary-tree.md)
-      * [maximum depth of binary tree](knowledge-memo/4.-tree-and-graph/problems/maximum-depth-of-binary-tree.md)
+      * [104. maximum depth of binary tree](knowledge-memo/4.-tree-and-graph/problems/maximum-depth-of-binary-tree.md)
       * [maximum depth of n-ary tree](knowledge-memo/4.-tree-and-graph/problems/maximum-depth-of-n-ary-tree.md)
       * [minimum depth of binary tree](knowledge-memo/4.-tree-and-graph/problems/minimum-depth-of-binary-tree.md)
       * [merge two binary trees](knowledge-memo/4.-tree-and-graph/problems/merge-two-binary-trees.md)

@@ -1,10 +1,10 @@
 # construct binary tree from traversals
 
-## I from Inorder and Postorder Traversal
+## 106. from Inorder and Postorder Traversal
 
 {% tabs %}
 {% tab title="Notes" %}
-* The search for root in inorder array can be obtimized with building a hashmap.
+* The search for root in inorder array can be optimized with building a hashmap.
 {% endtab %}
 
 {% tab title="Solution" %}
@@ -56,7 +56,7 @@ public class Solution {
 {% endtab %}
 {% endtabs %}
 
-## II from Inorder and Preorder Traversal
+## 105. from Inorder and Preorder Traversal
 
 {% tabs %}
 {% tab title="Notes" %}
@@ -114,7 +114,7 @@ public class Solution {
 {% endtab %}
 {% endtabs %}
 
-## III from Preorder and Postorder Traversal
+## 889. from Preorder and Postorder Traversal
 
 {% tabs %}
 {% tab title="Notes" %}
