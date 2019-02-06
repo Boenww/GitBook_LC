@@ -1,17 +1,12 @@
----
-description: >-
-  Rearrange numbers into the lexicographically next greater permutation of
-  numbers.If such arrangement is not possible, it be the lowest possible
-  order(ie, sorted in ascending order).
----
+# 31. next permutation
 
-# next permutation
+Rearrange numbers into the lexicographically next greater permutation of numbers.If such arrangement is not possible, it be the lowest possible order\(ie, sorted in ascending order\).
 
 {% tabs %}
 {% tab title="Notes" %}
-1. 从右往左遍历数组`nums`，直到找到一个位置`i`，满足`nums[i] > nums[i - 1]`或者`i`为`0`。
-2.  `i`不为0时，用`j`再次从右到左遍历`nums`，寻找第一个`nums[j] > nums[i - 1]`。而后交换`nums[j]`和`nums[i - 1]`。**满足要求的`j`一定存在！且交换后`nums[i]`及右侧数组仍为降序数组**。
-3. 将`nums[i]`及右侧的数组翻转，使其升序。
+1. 从右往左遍历数组nums，直到找到一个位置i，满足nums\[i\] &gt; nums\[i - 1\]或者i为0。
+2.  i不为0时，用j再次从右到左遍历nums，寻找第一个nums\[j\] &gt; nums\[i - 1\]。而后交换nums\[j\]和nums\[i - 1\]。**满足要求的j一定存在！且交换后nums\[i\]及右侧数组仍为降序数组**。
+3. 将nums\[i\]及右侧的数组翻转，使其升序。
 {% endtab %}
 
 {% tab title="Solution" %}

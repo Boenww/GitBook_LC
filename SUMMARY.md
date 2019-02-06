@@ -172,7 +172,7 @@
       * [regular expression match](algorithms/4.-dfs/based-on-combinations/regular-expression-match.md)
       * [word break II](algorithms/4.-dfs/based-on-combinations/word-break-ii.md)
     * [Based on Permutation](algorithms/4.-dfs/based-on-permutation/README.md)
-      * [next permutation](algorithms/4.-dfs/based-on-permutation/next-permutation.md)
+      * [31. next permutation](algorithms/4.-dfs/based-on-permutation/next-permutation.md)
       * [permutations I && II](algorithms/4.-dfs/based-on-permutation/permutations.md)
       * [n queens I && II](algorithms/4.-dfs/based-on-permutation/n-queens.md)
       * [permutation index I && II](algorithms/4.-dfs/based-on-permutation/permutation-index-i-and-and-ii.md)
