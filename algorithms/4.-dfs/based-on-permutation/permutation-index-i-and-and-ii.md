@@ -1,4 +1,8 @@
-# permutation index I && II
+---
+description: lintcode
+---
+
+# 197/198. permutation index I && II
 
 ## I
 

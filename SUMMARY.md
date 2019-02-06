@@ -175,7 +175,7 @@
       * [31. next permutation](algorithms/4.-dfs/based-on-permutation/next-permutation.md)
       * [46/47. permutations I && II](algorithms/4.-dfs/based-on-permutation/permutations.md)
       * [n queens I && II](algorithms/4.-dfs/based-on-permutation/n-queens.md)
-      * [permutation index I && II](algorithms/4.-dfs/based-on-permutation/permutation-index-i-and-and-ii.md)
+      * [197/198. permutation index I && II](algorithms/4.-dfs/based-on-permutation/permutation-index-i-and-and-ii.md)
       * [next closest time](algorithms/4.-dfs/based-on-permutation/next-closest-time.md)
     * [Graph-based](algorithms/4.-dfs/others/README.md)
       * [letter combinations of a phone number](algorithms/4.-dfs/others/letter-combinations-of-a-phone-number.md)
