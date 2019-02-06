@@ -26,26 +26,17 @@ public class Solution {
 		if (graph == null || graph.size() == 0) {
 			return res;
 		}
-
-		Map<DirectedGraphNode, Integer> map = new HashMap<>();
-
-		for (DirectedGraphNode node: graph) {
-			for (DirectedGraphNode nb: node.neighbors) {
-				if (!map.containsKey(nb)) {
-					map.put(nb, 0);
-				}
-				
-				map.put(nb, map.get(nb) + 1);
-			}
-		}
-
+		
+		//1. stat indegree
+		Map<DirectedGraphNode, Integer> map = getIndegree(graph);
 		Queue<DirectedGraphNode> queue = new LinkedList<>();
 		for (DirectedGraphNode node: graph) {
 			if (!map.containsKey(node)) {
 				queue.offer(node);
 			}
 		}
-
+		
+		//2. bfs
 		while (!queue.isEmpty()) {
 			DirectedGraphNode node = queue.poll();
 			res.add(node);
@@ -59,6 +50,21 @@ public class Solution {
 		}
 
 		return res;
+	}
+	
+	private Map<DirectedGraphNode, Integer> getIndegree(ArrayList<DirectedGraphNode> graph) {
+		Map<DirectedGraphNode, Integer> res = new HashMap<>();
+        for (DirectedGraphNode node: graph) {
+            for (DirectedGraphNode nb: node.neighbors) {
+                if (!res.containsKey(nb)) {
+                    res.put(nb, 0);
+                }
+            
+                res.put(nb, res.get(nb) + 1);
+            }
+        }
+
+        return res;
 	}
 }
 ```
