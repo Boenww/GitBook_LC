@@ -1,4 +1,4 @@
-# validate binary search tree
+# 98. validate binary search tree
 
 Given a binary tree, determine if it is a valid binary search tree \(BST\).
 

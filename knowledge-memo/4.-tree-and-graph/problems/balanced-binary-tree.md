@@ -1,8 +1,6 @@
----
-description: 'Given a binary tree, determine if it is height-balanced.'
----
+# 110. balanced binary tree
 
-# balanced binary tree
+Given a binary tree, determine if it is height-balanced.
 
 {% tabs %}
 {% tab title="Notes" %}
@@ -31,7 +29,7 @@ class Solution {
     }
     
     //bottom-up O(n)
-    public static final int NOT_BALANCED = -1;
+    public static final int NOT_BALANCED = -1; //or use ResultType class
     public boolean isBalanced(TreeNode root) {
         if (root == null) {
             return true;
