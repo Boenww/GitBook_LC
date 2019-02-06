@@ -4,7 +4,7 @@ description: 'Given a binary tree, return the required traversal of its nodes'' 
 
 # traversal
 
-## Preorder
+## 144. Preorder
 
 {% tabs %}
 {% tab title="Notes" %}
@@ -60,7 +60,7 @@ public List<Integer> preorderTraversal(TreeNode root) {
 {% endtab %}
 {% endtabs %}
 
-## Inorder
+## 94. Inorder
 
 {% tabs %}
 {% tab title="Notes" %}
@@ -113,7 +113,7 @@ public List<Integer> inorderTraversal(TreeNode root) {
 {% endtab %}
 {% endtabs %}
 
-## Postorder
+## 145. Postorder
 
 {% tabs %}
 {% tab title="Notes" %}
