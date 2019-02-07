@@ -1,4 +1,8 @@
-# rehashing
+---
+description: lintcode
+---
+
+# 129. rehashing
 
 Double the size of the hash table and rehash every keys. 
 

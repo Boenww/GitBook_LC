@@ -1,4 +1,8 @@
-# hash function
+---
+description: lintcode
+---
+
+# 128. hash function
 
 A widely used hash function algorithm is using a magic number 33, consider any string as a 33 based big integer like follow:
 
