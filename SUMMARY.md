@@ -22,7 +22,7 @@
     * [lru cache](knowledge-memo/2.-linkedlist/lru-cache.md)
   * [3. Stack and Queue](knowledge-memo/3.-stack-and-queue/README.md)
     * [Stack](knowledge-memo/3.-stack-and-queue/stack/README.md)
-      * [implement stack using queues](knowledge-memo/3.-stack-and-queue/stack/implement-stack-using-queues.md)
+      * [225. implement stack using queues](knowledge-memo/3.-stack-and-queue/stack/implement-stack-using-queues.md)
       * [min stack](knowledge-memo/3.-stack-and-queue/stack/min-stack.md)
       * [max stack](knowledge-memo/3.-stack-and-queue/stack/max-stack.md)
       * [implement three stacks by single array](knowledge-memo/3.-stack-and-queue/stack/implement-three-stacks-by-single-array.md)
