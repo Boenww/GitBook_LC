@@ -1,4 +1,8 @@
-# implement queue by linked list
+---
+description: lintcode
+---
+
+# 492. implement queue by linked list
 
 Implement a Queue by linked list. Support the following basic methods:
 

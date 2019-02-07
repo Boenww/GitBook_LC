@@ -1,4 +1,4 @@
-# implement queue using stacks
+# 232. implement queue using stacks
 
 Implement the following operations of a queue using stacks.
 
