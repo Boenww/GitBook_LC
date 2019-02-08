@@ -112,6 +112,7 @@
       * [34. find first and last position of target](algorithms/5.-two-pointers/binary-search/find-first-and-last-position-of-target.md)
       * [find min in rotated sorted array I && II](algorithms/5.-two-pointers/binary-search/find-min-in-rotated-sorted-array-i-and-and-ii.md)
       * [74. search a 2D matrix](algorithms/5.-two-pointers/binary-search/74.-search-a-2d-matrix.md)
+      * [141/586. sqrt\(\) I && II](algorithms/5.-two-pointers/binary-search/141-586.-sqrt-i-and-and-ii.md)
     * [Opposite two pointers](algorithms/5.-two-pointers/opposite-two-pointers/README.md)
       * [125/680. valid palindrome I && II](algorithms/5.-two-pointers/opposite-two-pointers/valid-palindrome-ii.md)
       * [167. two sum II - Input array is sorted](algorithms/5.-two-pointers/opposite-two-pointers/167.-two-sum-ii-input-array-is-sorted.md)
