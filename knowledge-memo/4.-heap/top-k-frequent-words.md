@@ -1,4 +1,6 @@
-# top k frequent words
+# 692/347. top k frequent words/elements
+
+## 692.
 
 Given a non-empty list of words, return the k most frequent elements.
 
@@ -7,7 +9,6 @@ Your answer should be sorted by frequency from highest to lowest. If two words h
 {% tabs %}
 {% tab title="Notes" %}
 * O\(NlogK\): heap
-* O\(N\): array\[freq\]
 {% endtab %}
 
 {% tab title="Solution" %}
@@ -30,6 +31,8 @@ class Solution {
                 
                 if (diff == 0) {
                     return s2.compareTo(s1); //reverse because of minHeap
+                    //poll elements with small count and high lexi order
+                    //positive if s2 follows s1 and negative if s2 precedes s1
                 }
                 
                 return diff;
@@ -50,7 +53,35 @@ class Solution {
         return res;
     }
 }
+```
+{% endtab %}
+{% endtabs %}
 
+## 347.
+
+Given a non-empty array of integers, return the **k** most frequent elements.
+
+```text
+Example 1:
+Input: nums = [1,1,1,2,2,3], k = 2
+Output: [1,2]
+
+Example 2:
+Input: nums = [1], k = 1
+Output: [1]
+```
+
+* You may assume k is always valid, 1 ≤ k ≤ number of unique elements.
+* Your algorithm's time complexity **must be** better than O\(n log n\), where n is the array's size.
+
+{% tabs %}
+{% tab title="Notes" %}
+* Same pq method as 692, but the order doesn't matter here if the frequencies are the same, so can use O\(N\) bucket method
+* O\(N\): array\[freq\]
+{% endtab %}
+
+{% tab title="Solution" %}
+```java
 //O(n)
 public List<Integer> topKFrequent(int[] nums, int k) {
     Map<Integer, Integer> count = new HashMap<>();

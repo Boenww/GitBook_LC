@@ -37,7 +37,7 @@
     * [ugly number I && II](knowledge-memo/4.-heap/ugly-number-i-and-and-ii.md)
     * [k closest points](knowledge-memo/4.-heap/k-closest-points.md)
     * [top k largest number I && II](knowledge-memo/4.-heap/top-k-largest-number-i-and-and-ii.md)
-    * [top k frequent words](knowledge-memo/4.-heap/top-k-frequent-words.md)
+    * [692/347. top k frequent words/elements](knowledge-memo/4.-heap/top-k-frequent-words.md)
     * [613. high five](knowledge-memo/4.-heap/high-five.md)
     * [295. find median from data stream](knowledge-memo/4.-heap/find-median-from-data-stream.md)
     * [kth smallest number in sorted matrix](knowledge-memo/4.-heap/kth-smallest-number-in-sorted-matrix.md)
