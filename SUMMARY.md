@@ -86,6 +86,7 @@
     * [min/max subarray sum](knowledge-memo/arrays/min-max-subarray-sum.md)
     * [subarray sum/closest](knowledge-memo/arrays/subarray-sum-closest.md)
     * [793. intersection of arrays](knowledge-memo/arrays/793.-intersection-of-arrays.md)
+    * [54. spiral matrix](knowledge-memo/arrays/54.-spiral-matrix.md)
   * [\* Interval](knowledge-memo/interval/README.md)
     * [252/253. meeting room I && II](knowledge-memo/interval/252-253.-meeting-room-i-and-and-ii.md)
     * [839. merge two sorted interval lists](knowledge-memo/interval/839.-merge-two-sorted-interval-lists.md)
