@@ -117,6 +117,7 @@
     * [Opposite two pointers](algorithms/5.-two-pointers/opposite-two-pointers/README.md)
       * [125/680. valid palindrome I && II](algorithms/5.-two-pointers/opposite-two-pointers/valid-palindrome-ii.md)
       * [167. two sum II - Input array is sorted](algorithms/5.-two-pointers/opposite-two-pointers/167.-two-sum-ii-input-array-is-sorted.md)
+      * [42. trapping rain water](algorithms/5.-two-pointers/opposite-two-pointers/42.-trapping-rain-water.md)
     * [Parallel two pointers](algorithms/5.-two-pointers/parallel-two-pointers/README.md)
       * [521. remove duplicate numbers in array](algorithms/5.-two-pointers/parallel-two-pointers/remove-duplicate-numbers-in-array.md)
       * [remove duplicates from sorted array](algorithms/5.-two-pointers/parallel-two-pointers/remove-duplicates-from-sorted-array.md)
