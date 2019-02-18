@@ -68,6 +68,7 @@
   * [\* String](knowledge-memo/string/README.md)
     * [28. implement strStr](knowledge-memo/string/28.-implement-strstr.md)
     * [8. string to integer](knowledge-memo/string/8.-string-to-integer.md)
+    * [6. zigzag conversion](knowledge-memo/string/6.-zigzag-conversion.md)
     * [valid ip address](knowledge-memo/string/valid-ip-address.md)
     * [unique characters](knowledge-memo/string/unique-characters.md)
     * [longest substring without repeating characters](knowledge-memo/string/longest-substring-without-repeating-characters.md)
