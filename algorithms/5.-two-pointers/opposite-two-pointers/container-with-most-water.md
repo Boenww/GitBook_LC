@@ -1,10 +1,6 @@
----
-description: >-
-  Find two lines, which together with x-axis forms a container, such that the
-  container contains the most water.
----
-
 # container with most water
+
+Find two lines, which together with x-axis forms a container, such that the container contains the most water.
 
 {% tabs %}
 {% tab title="Notes" %}
