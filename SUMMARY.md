@@ -16,6 +16,7 @@
     * [remove nth node from end](knowledge-memo/2.-linkedlist/remove-nth-node-from-end.md)
     * [remove duplicates from sorted list I && II](knowledge-memo/2.-linkedlist/remove-duplicates-from-sorted-list.md)
     * [reverse linked list I && II](knowledge-memo/2.-linkedlist/reverse-linked-list.md)
+    * [24. swap nodes in pairs](knowledge-memo/2.-linkedlist/24.-swap-nodes-in-pairs.md)
     * [intersection of two linked lists](knowledge-memo/2.-linkedlist/intersection-of-two-linked-lists.md)
     * [palindrome linked list](knowledge-memo/2.-linkedlist/palindrome-linked-list.md)
     * [copy list with random pointer](knowledge-memo/2.-linkedlist/copy-list-with-random-pointer.md)
