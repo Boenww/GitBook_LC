@@ -10,6 +10,7 @@
     * [first unique number in a stream](knowledge-memo/1.-hash-table/first-unique-number-in-a-stream.md)
     * [128. longest consecutive sequence](knowledge-memo/1.-hash-table/128.-longest-consecutive-sequence.md)
     * [325. maximum size subarray](knowledge-memo/1.-hash-table/325.-maximum-size-subarray.md)
+    * [36. valid sudoku](knowledge-memo/1.-hash-table/36.-valid-sudoku.md)
   * [2. LinkedList](knowledge-memo/2.-linkedlist/README.md)
     * [partition lists](knowledge-memo/2.-linkedlist/partition-lists.md)
     * [merge two sorted lists](knowledge-memo/2.-linkedlist/merge-two-sorted-lists.md)
