@@ -88,6 +88,7 @@
     * [rotate image](knowledge-memo/arrays/rotate-image.md)
     * [73. set matrix zeroes](knowledge-memo/arrays/73.-set-matrix-zeroes.md)
     * [min/max subarray sum](knowledge-memo/arrays/min-max-subarray-sum.md)
+    * [944. maximum submatrix](knowledge-memo/arrays/944.-maximum-submatrix.md)
     * [subarray sum/closest](knowledge-memo/arrays/subarray-sum-closest.md)
     * [793. intersection of arrays](knowledge-memo/arrays/793.-intersection-of-arrays.md)
     * [54. spiral matrix](knowledge-memo/arrays/54.-spiral-matrix.md)
