@@ -204,4 +204,5 @@
     * [123/188. best time to buy and sell stock III && IV](algorithms/dp/123-188.-best-time-to-buy-and-sell-stock-iii-and-and-iv.md)
   * [8. Bit Manipulation](algorithms/8.-bit-manipulation.md)
   * [9. Greedy](algorithms/9.-greedy.md)
+  * [10. Divide & Conquer](algorithms/10.-divide-and-conquer.md)
 
