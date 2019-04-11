@@ -92,6 +92,7 @@
     * [subarray sum/closest](knowledge-memo/arrays/subarray-sum-closest.md)
     * [793. intersection of arrays](knowledge-memo/arrays/793.-intersection-of-arrays.md)
     * [54. spiral matrix](knowledge-memo/arrays/54.-spiral-matrix.md)
+    * [65/931. median of two/k sorted array](knowledge-memo/arrays/65-931.-median-of-two-k-sorted-array.md)
   * [\* Interval](knowledge-memo/interval/README.md)
     * [252/253. meeting room I && II](knowledge-memo/interval/252-253.-meeting-room-i-and-and-ii.md)
     * [839. merge two sorted interval lists](knowledge-memo/interval/839.-merge-two-sorted-interval-lists.md)
