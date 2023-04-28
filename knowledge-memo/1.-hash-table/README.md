@@ -1,6 +1,6 @@
 # 1. Hash Table
 
-![](../../.gitbook/assets/1861542479286\_.pic\_hd.jpg)
+![](<../../.gitbook/assets/1861542479286\_.pic\_hd (1).jpg>)
 
 ## Get && Set
 

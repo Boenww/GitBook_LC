@@ -2,7 +2,7 @@
 
 Find two lines, which together with x-axis forms a container, such that the container contains the most water.
 
-![](<../../../.gitbook/assets/image (1).png>)
+![](../../../.gitbook/assets/image.png)
 
 {% tabs %}
 {% tab title="Notes" %}
