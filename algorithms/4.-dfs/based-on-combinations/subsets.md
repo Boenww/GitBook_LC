@@ -2,21 +2,18 @@
 
 ## I
 
-Given a set of **distinct** integers, _nums_, return all possible subsets \(the power set\).
+Given a set of **distinct** integers, _nums_, return all possible subsets (the power set).
 
 **Note:** The solution set must not contain duplicate subsets.
 
 {% tabs %}
 {% tab title="Notes" %}
 * recursive
-
-1. 组合类搜索（一层一层地决策每个数要不要）
-2. more general
-
+* 组合类搜索（一层一层地决策每个数要不要）
+* more general
 * iterative
-
-1. bit manipulation 
-2. bfs
+* bit manipulation&#x20;
+* bfs
 {% endtab %}
 
 {% tab title="Solution" %}
@@ -119,14 +116,14 @@ class Solution {
 
 ## II
 
-Given a collection of integers that might contain duplicates, _**nums**_, return all possible subsets \(the power set\).
+Given a collection of integers that might contain duplicates, _**nums**_, return all possible subsets (the power set).
 
-**Note:** The solution set must not contain duplicate subsets.  
+**Note:** The solution set must not contain duplicate subsets.\
 
 
 {% tabs %}
 {% tab title="Notes" %}
-* If nums\[i - 1\] is not added to the subset and nums\[i\] == nums\[i - 1\]\(next recursion\), nums\[i\] should also not be added into the subset.
+* If nums\[i - 1] is not added to the subset and nums\[i] == nums\[i - 1]\(next recursion), nums\[i] should also not be added into the subset.
 {% endtab %}
 
 {% tab title="Solution" %}
@@ -159,4 +156,3 @@ class Solution {
 ```
 {% endtab %}
 {% endtabs %}
-

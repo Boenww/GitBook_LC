@@ -1,8 +1,8 @@
-# merge two sorted lists
+# 21. merge two sorted lists
 
 {% tabs %}
 {% tab title="Notes" %}
-
+* does changing the input ListNode matter?
 {% endtab %}
 
 {% tab title="Solution" %}
@@ -56,4 +56,3 @@ class Solution {
 ```
 {% endtab %}
 {% endtabs %}
-

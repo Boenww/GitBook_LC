@@ -46,6 +46,7 @@ class Solution {
             return null;
         }
         
+        // queue or stack doesn't matter
         Queue<TreeNode> queue = new LinkedList<>();
         queue.offer(root);
         while (!queue.isEmpty()) {
@@ -70,4 +71,3 @@ class Solution {
 ```
 {% endtab %}
 {% endtabs %}
-

@@ -4,7 +4,7 @@
 
 Given a string, determine if it is a palindrome, considering only alphanumeric characters and ignoring cases.
 
-```text
+```
 Example 1:
 Input: "A man, a plan, a canal: Panama"
 Output: true
@@ -16,7 +16,8 @@ Output: false
 
 {% tabs %}
 {% tab title="Notes" %}
-
+* Character.toLowerCase
+* Character.isLetter() || Character.isDigit()
 {% endtab %}
 
 {% tab title="Solution" %}
@@ -62,7 +63,7 @@ Given a non-empty string `s`, you may delete at most one character. Judge whethe
 
 {% tabs %}
 {% tab title="Notes" %}
-
+helper function
 {% endtab %}
 
 {% tab title="Solution" %}
@@ -101,4 +102,3 @@ public class Solution {
 ```
 {% endtab %}
 {% endtabs %}
-

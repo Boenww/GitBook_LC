@@ -4,7 +4,7 @@ Design a stack that supports push, pop, top, and retrieving the minimum element 
 
 {% tabs %}
 {% tab title="Notes" %}
-* one stack with maintaining min 
+* one stack with maintaining min&#x20;
 * two stacks
 {% endtab %}
 
@@ -60,15 +60,13 @@ public class MinStack {
 
     public void push(int number) {
         stack.push(number);
-        if (minStack.empty() == true)
-            minStack.push(number);
-        else if (minStack.peek() >= number) {
+        if (minStack.empty() == true || minStack.peek() >= number) {
             minStack.push(number);
         }
     }
 
     public int pop() {
-        if (stack.peek().equals(minStack.peek()) ) 
+        if (stack.peek().equals(minStack.peek()) ) // equals!!! Integer object
             minStack.pop();
         return stack.pop();
     }
@@ -80,4 +78,3 @@ public class MinStack {
 ```
 {% endtab %}
 {% endtabs %}
-

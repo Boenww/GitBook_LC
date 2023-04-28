@@ -2,16 +2,17 @@
 
 Design a max stack that supports push, pop, top, peekMax and popMax.
 
-1. push\(x\) -- Push element x onto stack.
-2. pop\(\) -- Remove the element on top of the stack and return it.
-3. top\(\) -- Get the element on the top.
-4. peekMax\(\) -- Retrieve the maximum element in the stack.
-5. popMax\(\) -- Retrieve the maximum element in the stack, and remove it. If you find more than one maximum elements, only remove the top-most one.
+1. push(x) -- Push element x onto stack.
+2. pop() -- Remove the element on top of the stack and return it.
+3. top() -- Get the element on the top.
+4. peekMax() -- Retrieve the maximum element in the stack.
+5. popMax() -- Retrieve the maximum element in the stack, and remove it. If you find more than one maximum elements, only remove the top-most one.
 
 {% tabs %}
 {% tab title="Notes" %}
-* two stacks: popMax\(\) is O\(n\) and O\(1\) for the other operations
-* double linked list with treemap: all O\(logn\) except top\(\) 
+* two stacks: popMax() is O(n) and O(1) for the other operations
+* double linked list with treemap: all O(logn) except top()&#x20;
+* one stack with maintaining max is also doable
 {% endtab %}
 
 {% tab title="Solution" %}
@@ -157,4 +158,3 @@ class ListNode {
 ```
 {% endtab %}
 {% endtabs %}
-

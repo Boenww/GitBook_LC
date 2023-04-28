@@ -6,7 +6,7 @@ Strings consists of lowercase English letters only and the length of both string
 
 The order of output does not matter.
 
-```text
+```
 Example 1:
 Input:
 s: "cbaebabacd" p: "abc"
@@ -21,8 +21,9 @@ The substring with start index = 6 is "bac", which is an anagram of "abc".
 
 {% tabs %}
 {% tab title="Notes" %}
-* Sliding window O\(n\)
-* brute force O\(nk\), k is the length of p
+* Sliding window O(n)
+* hash: count array&#x20;
+* brute force O(nk), k is the length of p
 {% endtab %}
 
 {% tab title="Solution" %}
@@ -60,4 +61,3 @@ public List<Integer> findAnagrams(String s, String p) {
 ```
 {% endtab %}
 {% endtabs %}
-

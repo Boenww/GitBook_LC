@@ -40,7 +40,17 @@ Given a linked list, return the node where the cycle begins. If there is no cycl
 
 {% tabs %}
 {% tab title="Notes" %}
+```
+    // 1 -> 2 -> 3
+    //       \  /
+    //        4
+    // x: 1 - 2
+    // y: 2 - 4
+    // z: 4 - 2
 
+    // 2x == (x - 1) + x + 1
+    // z - 1 == x
+```
 {% endtab %}
 
 {% tab title="Solution" %}
@@ -73,4 +83,3 @@ public ListNode detectCycle(ListNode head) {
 ```
 {% endtab %}
 {% endtabs %}
-

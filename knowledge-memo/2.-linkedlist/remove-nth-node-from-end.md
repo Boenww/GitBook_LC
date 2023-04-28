@@ -2,7 +2,8 @@
 
 {% tabs %}
 {% tab title="Notes" %}
-* The case to remove the head node
+* slow ...(n + 1)... fast pointer
+* The case to remove the head node cared
 {% endtab %}
 
 {% tab title="Solution" %}
@@ -31,4 +32,3 @@ public ListNode removeNthFromEnd(ListNode head, int n) {
 ```
 {% endtab %}
 {% endtabs %}
-

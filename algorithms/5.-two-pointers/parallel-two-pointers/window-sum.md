@@ -4,7 +4,7 @@ description: lintcode
 
 # 604. window sum
 
-Given an array of n integers, and a moving window\(size k\), move the window at each iteration from the start of the array, find the sum of the element inside the window at each moving.
+Given an array of n integers, and a moving window(size k), move the window at each iteration from the start of the array, find the sum of the element inside the window at each moving.
 
 {% tabs %}
 {% tab title="Notes" %}
@@ -15,7 +15,7 @@ Given an array of n integers, and a moving window\(size k\), move the window at 
 ```java
 public class Solution {
     public int[] winSum(int[] nums, int k) {
-        if (nums == null || k <= 0 || k > nums.length) {
+        if (nums == null || k <= 0 || k > nums.length) { // clarify what to return when k > nums.length
             return new int[0];
         }
         
@@ -37,4 +37,3 @@ public class Solution {
 ```
 {% endtab %}
 {% endtabs %}
-

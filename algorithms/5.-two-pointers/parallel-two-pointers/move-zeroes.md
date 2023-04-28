@@ -31,7 +31,7 @@ class Solution {
     //two pointers: j points to the first zero and i moves forward to detect non zero
     public void moveZeroes(int[] nums) {
         int j = 0;
-        for (int i = 0; i < nums.length; i++) {
+        for (int i = 0; i < nums.length; i++) { // i should start from 0 also to maintain the relative order!
             if (nums[i] != 0) {
                 int tmp = nums[i];
                 nums[i] = nums[j];
@@ -44,4 +44,3 @@ class Solution {
 ```
 {% endtab %}
 {% endtabs %}
-

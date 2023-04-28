@@ -8,8 +8,8 @@ Here, we will use the integers `0`, `1`, and `2` to represent the color red, whi
 {% tab title="Notes" %}
 * Use three pointers
 * Take care when to move the "cur" pointer
-* nums\[cur\] == 0 -&gt; the number from left cannot be 2 -&gt; cur++
-* nums\[cur\] == 2 -&gt; the number from right can be any number -&gt; not change cur
+* nums\[cur] == 0 -> the number from left cannot be 2 -> cur++
+* nums\[cur] == 2 -> the number from right can be any number -> don't change cur
 {% endtab %}
 
 {% tab title="Solution" %}
@@ -41,4 +41,3 @@ class Solution {
 ```
 {% endtab %}
 {% endtabs %}
-

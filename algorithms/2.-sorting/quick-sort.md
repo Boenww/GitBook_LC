@@ -2,11 +2,11 @@
 
 {% tabs %}
 {% tab title="Notes" %}
-1. determine a pivot 
+1\. determine a pivot&#x20;
 
-2. partition \(&lt;= pivot, &gt;= pivot\):
+2\. partition (<= pivot, >= pivot):
 
-```text
+```
 i -> head, j -> tail
 if i < pivot, right shift i
 if j > pivot, left shift j
@@ -14,9 +14,9 @@ else
 swap i and j, repeat
 ```
 
-* time: O\(n^2\) worst case\(sorted and pivot chosen as head\), O\(nlogn\) best case
-* space: O\(logn\) -&gt; O\(1\)
-* case ==pivot: also swap value -&gt; reduce problem scale and let them be as equal as possible
+* time: O(n^2) worst case(sorted and pivot chosen as head), O(nlogn) best case
+* space: O(logn) -> O(1)
+* case ==pivot: also swap value -> reduce problem scale and let them be as equal as possible
 * not stable
 * global to local
 {% endtab %}
@@ -61,4 +61,3 @@ public static void swap(int[] array, int left, int right) {
 ```
 {% endtab %}
 {% endtabs %}
-

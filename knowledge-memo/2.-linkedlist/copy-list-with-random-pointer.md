@@ -8,10 +8,10 @@ Return a deep copy of the list.
 {% tab title="Notes" %}
 * The lower copied list is wrong.
 
-![](../../.gitbook/assets/image.png)
+![](<../../.gitbook/assets/image (2).png>)
 
-* O\(n\) space with hashmap
-* O\(1\) space by traversing three times
+* O(n) space with hashmap
+* O(1) space by traversing three times
 {% endtab %}
 
 {% tab title="Solution" %}
@@ -89,4 +89,3 @@ public class Solution {
 ```
 {% endtab %}
 {% endtabs %}
-

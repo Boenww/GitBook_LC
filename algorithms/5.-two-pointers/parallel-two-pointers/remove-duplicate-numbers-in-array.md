@@ -14,13 +14,13 @@ You should:
 
 {% tabs %}
 {% tab title="Notes" %}
-
+pay attention to "does order matter?"
 {% endtab %}
 
 {% tab title="Solution" %}
 ```java
 public class Solution {
-    //O(n)
+    //O(n) x do it in place
     public int deduplication(int[] nums) {
         Set<Integer> set = new HashSet<>();
     
@@ -68,4 +68,3 @@ public class Solution {
 ```
 {% endtab %}
 {% endtabs %}
-

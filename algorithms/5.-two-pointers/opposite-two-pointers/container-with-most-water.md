@@ -2,6 +2,8 @@
 
 Find two lines, which together with x-axis forms a container, such that the container contains the most water.
 
+![](<../../../.gitbook/assets/image (1).png>)
+
 {% tabs %}
 {% tab title="Notes" %}
 
@@ -19,7 +21,7 @@ public int maxArea(int[] height) {
         max = Math.max(max, (right - left) * Math.min(height[left], height[right]));
         if (height[left] < height[right]) {
             left++;
-        } else {
+        } else { // height[left] == height[right] doesn't matter, caz if right doesn't change, the area will be smaller regardless of height[left++]
             right--;
         }
     }
@@ -29,4 +31,3 @@ public int maxArea(int[] height) {
 ```
 {% endtab %}
 {% endtabs %}
-

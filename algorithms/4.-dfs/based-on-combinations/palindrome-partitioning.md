@@ -2,12 +2,12 @@
 
 Given a string _s_, partition _s_ such that every substring of the partition is a palindrome.
 
-Return all possible palindrome partitioning of _s_.  
+Return all possible palindrome partitioning of _s_.\
 
 
 {% tabs %}
 {% tab title="Notes" %}
-* Combination based\(decide whether cut or not at each index\)
+* Combination based(decide whether cut or not at each index)
 * more general
 * optimize: get palindrome information ahead
 {% endtab %}
@@ -137,4 +137,3 @@ class Solution {
 ```
 {% endtab %}
 {% endtabs %}
-

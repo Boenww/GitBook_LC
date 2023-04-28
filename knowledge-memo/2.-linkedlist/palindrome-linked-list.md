@@ -4,7 +4,7 @@ Implement a function to check if a linked list is a palindrome.
 
 {% tabs %}
 {% tab title="Notes" %}
-
+* follow up on reverse a linked list?
 {% endtab %}
 
 {% tab title="Solution" %}
@@ -57,4 +57,3 @@ public class Solution {
 ```
 {% endtab %}
 {% endtabs %}
-

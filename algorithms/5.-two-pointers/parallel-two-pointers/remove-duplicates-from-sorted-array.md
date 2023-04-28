@@ -8,7 +8,7 @@ description: >-
 
 {% tabs %}
 {% tab title="Notes" %}
-Follow up: duplicates appeared at most _twice_
+Follow up: such that duplicates appear at most _twice_
 {% endtab %}
 
 {% tab title="Solution" %}
@@ -57,4 +57,3 @@ public int removeDuplicates(int[] nums) {
 ```
 {% endtab %}
 {% endtabs %}
-

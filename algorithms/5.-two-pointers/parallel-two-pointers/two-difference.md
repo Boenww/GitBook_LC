@@ -2,14 +2,16 @@
 description: lintcode
 ---
 
-# 610. two difference - difference equals to target
+# 610. two sum - difference equals to target
 
-Given an array of integers, find two numbers that their `difference` equals to a target value.  
-where index1 must be less than index2. Please note that your returned answers \(both index1 and index2\) are NOT zero-based. It's guaranteed there is only one available solution.
+Given an array of integers, find two numbers that their `difference` equals to a target value.\
+where index1 must be less than index2. Please note that your returned answers (both index1 and index2) are NOT zero-based. It's guaranteed there is only one available solution.
 
 {% tabs %}
 {% tab title="Notes" %}
-
+* sorted or unsorted&#x20;
+* return index or the array value
+* only one available solution, i.e. two different values&#x20;
 {% endtab %}
 
 {% tab title="Solution" %}
@@ -35,7 +37,7 @@ public class Solution {
             if (numsCopy[j] - numsCopy[i] == target) {
                 break;
             }
-            i++;
+            i++; // i == j??? e.g. [0,1,2,2] 0
         }
         
         int[] res = new int[]{-1, -1};
@@ -74,8 +76,34 @@ public class Solution {
         
         return new int[]{-1, -1};
     }
+    
+    // old: above and return index
+    // new: return values
+    public int[] twoSum7(int[] nums, int target) {
+    		int[] res = new int[]{-1, -1};
+    
+    		if (nums == null || nums.length < 2) {
+    			return res;
+    		}
+    
+    		int i = 0, j = 1, difference = 0;
+    		while (i < nums.length && j < nums.length) {
+    			difference = nums[j] - nums[i];
+    			if (difference == target && i != j) {
+    				res[0] = nums[i];
+    				res[1] = nums[j];
+            break;
+    			} else if (difference < target) {
+    				j++;
+    			} else {
+    				i++;
+    			}
+    		}
+    
+        Arrays.sort(res);
+    		return res;
+	}
 }
 ```
 {% endtab %}
 {% endtabs %}
-

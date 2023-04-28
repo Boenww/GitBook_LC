@@ -6,7 +6,7 @@ Reverse a linked list.
 
 {% tabs %}
 {% tab title="Notes" %}
-
+* iterative and recursive
 {% endtab %}
 
 {% tab title="Solution" %}
@@ -51,7 +51,7 @@ Reverse a linked list from position _m_ to _n_. Do it in one-pass.
 
 {% tabs %}
 {% tab title="Notes" %}
-Check possble null with awareness of given constraints !!! 
+Check possble null with awareness of given constraints !!!&#x20;
 
 * If 1 ≤ m ≤ n ≤ length of list,  the code under comments  is not necessary.
 {% endtab %}
@@ -101,4 +101,3 @@ public ListNode reverseBetween(ListNode head, int m, int n) {
 ```
 {% endtab %}
 {% endtabs %}
-
