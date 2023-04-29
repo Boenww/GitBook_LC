@@ -1,6 +1,6 @@
 # insert delete getRandom I && II
 
-## I
+## 380. I
 
 Design a data structure that supports all following operations in average `O(1)` time.
 
@@ -74,14 +74,14 @@ public class RandomizedSet {
 {% endtab %}
 {% endtabs %}
 
-## II
+## 381. II
 
 Duplicate elements are allowed.
 
 {% tabs %}
 {% tab title="Notes" %}
-* challenge for remove\(val\): change the "list.size\(\) - 1" index in map.get\(val\) would take more time
-* Method to solve: use LinkedHashSet\(DLL internally and next call just returns the head of the Linkedlist which is first element in this case and moves the pointer to next element\) or store the index information in the list\(List&lt;numAndIndex&gt;\)
+* challenge for remove(val): change the "list.size() - 1" index in map.get(val) would take more time
+* Method to solve: use LinkedHashSet(DLL internally and next call just returns the head of the Linkedlist which is first element in this case and moves the pointer to next element) or store the index information in the list(List\<numAndIndex>)
 {% endtab %}
 
 {% tab title="Solution" %}
@@ -146,4 +146,3 @@ class RandomizedCollection {
 ```
 {% endtab %}
 {% endtabs %}
-
