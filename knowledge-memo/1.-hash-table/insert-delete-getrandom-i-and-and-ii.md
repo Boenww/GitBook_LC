@@ -101,7 +101,7 @@ class RandomizedCollection {
     /** Inserts a value to the collection. Returns true if the collection did not already contain the specified element. */
     public boolean insert(int val) {
         boolean res = !valToIndices.containsKey(val);
-        list.add(val);
+        list.add(val); // order matters! should ahead of adding to the map
         
         if (res) {
             valToIndices.put(val, new LinkedHashSet<>());
@@ -117,17 +117,18 @@ class RandomizedCollection {
             return false;
         }
         
+        // remove from map
         Set<Integer> valIndices = valToIndices.get(val);
         int index = valIndices.iterator().next();
-        int replaceVal = list.get(list.size() - 1);
-        
-        list.set(index, replaceVal);
         valIndices.remove(index);
         if (valIndices.isEmpty()) {
             valToIndices.remove(val);
         }
         
+        // move the last item to index
         if (index != list.size() - 1) {
+            int replaceVal = list.get(list.size() - 1);
+            list.set(index, replaceVal);
             Set<Integer> replaceIndices = valToIndices.get(replaceVal);
             replaceIndices.remove(list.size() - 1);
             replaceIndices.add(index);
