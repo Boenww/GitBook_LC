@@ -1,11 +1,13 @@
-# first unique number in a stream
+# first unique number in a stream I & II
+
+## II
 
 We need to implement a data structure named `DataStream`. There are `two` methods required to be implemented:
 
 1. `void add(number)` // add a new number
 2. `int firstUnique()` // return first unique number
 
-```text
+```
 Example:
 add(1)
 add(2)
@@ -117,3 +119,59 @@ public class DataStream {
 {% endtab %}
 {% endtabs %}
 
+## I
+
+Given a data stream, write a function that returns the first unique number when the end number arrives (including the end number), and return -1 if cannot find the end number.
+
+```
+Example:
+Input:
+[1, 2, 2, 1, 3, 4, 4, 5, 6]
+5
+
+Output:
+3
+
+Input:
+[1, 2, 2, 1, 3, 4, 4, 5, 6]
+7
+
+Output:
+-1
+```
+
+{% tabs %}
+{% tab title="Notes" %}
+
+{% endtab %}
+
+{% tab title="Solution" %}
+```java
+// if iterates twice is allowed
+public int firstUniqueNumber(int[] nums, int number) {
+    // Write your code here
+    Map <Integer, Integer> numToCounter = new HashMap<>();
+    for (int i = 0; i < nums.length; i++) {
+        numToCounter.put(nums[i], numToCounter.getOrDefault(nums[i], 0) + 1);
+        if (nums[i] == number) {
+            break;
+        }
+
+        if (i == nums.length - 1) {
+            return -1;
+        }
+    }
+
+    for (int i = 0; i < nums.length; i++) {
+        if (numToCounter.get(nums[i]) == 1) {
+            return nums[i];
+        }
+    }
+
+    return -1;
+}
+
+// if not allowed, same solution as II
+```
+{% endtab %}
+{% endtabs %}

@@ -7,7 +7,7 @@
     * [706. design hashmap](knowledge-memo/1.-hash-table/design-a-hashmap.md)
     * [129. rehashing](knowledge-memo/1.-hash-table/rehashing.md)
     * [insert delete getRandom I && II](knowledge-memo/1.-hash-table/insert-delete-getrandom-i-and-and-ii.md)
-    * [first unique number in a stream](knowledge-memo/1.-hash-table/first-unique-number-in-a-stream.md)
+    * [first unique number in a stream I & II](knowledge-memo/1.-hash-table/first-unique-number-in-a-stream.md)
     * [128. longest consecutive sequence](knowledge-memo/1.-hash-table/128.-longest-consecutive-sequence.md)
     * [325. maximum size subarray](knowledge-memo/1.-hash-table/325.-maximum-size-subarray.md)
     * [36. valid sudoku](knowledge-memo/1.-hash-table/36.-valid-sudoku.md)
