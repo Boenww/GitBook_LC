@@ -37,13 +37,11 @@ public class DataStream {
     
     public ListNode dummy, tail;
     public Map<Integer, ListNode> uniqueToPrev;
-    public Set<Integer> set;
     
     public DataStream(){
         dummy = new ListNode(0);
         tail = dummy;
         uniqueToPrev = new HashMap<>();
-        set = new HashSet<>();
     }
     /**
      * @param num: next number in stream
@@ -59,13 +57,15 @@ public class DataStream {
             tail.next = node;
             tail = tail.next;
         }
-        set.add(num);
     }
     
     public void remove(int num) {
+        if (uniqueToPrev.get(num) == null) {
+            return;
+        }
         ListNode prev = uniqueToPrev.get(num);
         prev.next = prev.next.next;
-        uniqueToPrev.remove(num);
+        uniqueToPrev.put(num, null);
         
         if (prev.next == null) {
             tail = prev;
