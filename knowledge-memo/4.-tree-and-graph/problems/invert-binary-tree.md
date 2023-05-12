@@ -56,6 +56,7 @@ class Solution {
             node.left = node.right;
             node.right = tmp;
             
+            // left & right first doesn't matter either
             if (node.left != null) {
                 queue.offer(node.left);
             }
