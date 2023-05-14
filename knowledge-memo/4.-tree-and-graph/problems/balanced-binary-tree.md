@@ -5,6 +5,14 @@ Given a binary tree, determine if it is height-balanced.
 {% tabs %}
 {% tab title="Notes" %}
 Difference between up-bottom and bottom-up solutions.
+
+up-bottom:
+
+首先需要遍历树中所有节点，i.e. O(n). 对于某一节点，如果它的高度是h, 则getDepth最多会被调用h次，最坏情况下二叉树为链式结构，高度为O(n)，此时总时间复杂度为O(n^2).
+
+bottom-up:
+
+每个节点的计算高度和判断是否平衡都只需要处理一次，因此O(n).
 {% endtab %}
 
 {% tab title="Solution" %}
@@ -52,9 +60,12 @@ class Solution {
         return Math.max(left, right) + 1;
     }
 }
+
 ```
 {% endtab %}
 {% endtabs %}
+
+
 
 
 
