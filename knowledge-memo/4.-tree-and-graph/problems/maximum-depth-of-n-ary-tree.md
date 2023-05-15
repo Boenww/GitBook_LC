@@ -1,3 +1,7 @@
+---
+description: leetcode 559
+---
+
 # maximum depth of n-ary tree
 
 {% tabs %}
@@ -46,4 +50,3 @@ public int maxDepth(Node root) {
 ```
 {% endtab %}
 {% endtabs %}
-
