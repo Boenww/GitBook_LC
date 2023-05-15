@@ -9,7 +9,7 @@ description: >-
 {% tabs %}
 {% tab title="Notes" %}
 * Group the nodes with the same height.
-* Height definition here is the number of edges from the node to the leaf of that branch.
+* Height definition here is the larger number of edges from the node to the leaf of that branch.
 {% endtab %}
 
 {% tab title="Solution" %}
@@ -41,4 +41,3 @@ class Solution {
 ```
 {% endtab %}
 {% endtabs %}
-
