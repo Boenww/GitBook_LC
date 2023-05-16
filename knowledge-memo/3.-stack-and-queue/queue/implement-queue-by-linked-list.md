@@ -39,6 +39,9 @@ public class MyQueue {
     }
 
     public int dequeue() {
+        if (dummy.next == null) {
+            return -1;
+        }
         int res = dummy.next.val;
         dummy.next = dummy.next.next;
         if (dummy.next == null) {
@@ -58,7 +61,7 @@ Implement a deque
 
 {% tabs %}
 {% tab title="Notes" %}
-* single linked list -&gt; pop\_back\(\) is O\(n\)
+* single linked list -> pop\_back() is O(n)
 * double linked list
 {% endtab %}
 
@@ -121,4 +124,3 @@ public class Dequeue {
 ```
 {% endtab %}
 {% endtabs %}
-
