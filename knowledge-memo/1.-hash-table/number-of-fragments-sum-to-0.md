@@ -12,8 +12,11 @@ Example: Given A = \[2, -2, 3, 0, 4, -7], the function should return 4. Given A=
 {% tab title="Solution" %}
 {% code fullWidth="false" %}
 ```java
-// Some code
 public int solution(int[] A) {
+    if (A == null) {
+        return 0;
+    }
+    
     int count = 0;
     int sum = 0;
     
