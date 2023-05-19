@@ -11,6 +11,8 @@
     * [128. longest consecutive sequence](knowledge-memo/1.-hash-table/128.-longest-consecutive-sequence.md)
     * [325. maximum size subarray](knowledge-memo/1.-hash-table/325.-maximum-size-subarray.md)
     * [36. valid sudoku](knowledge-memo/1.-hash-table/36.-valid-sudoku.md)
+    * [number of fragments sum to 0](knowledge-memo/1.-hash-table/number-of-fragments-sum-to-0.md)
+    * [first missing positive integer](knowledge-memo/1.-hash-table/first-missing-positive-integer.md)
   * [2. LinkedList](knowledge-memo/2.-linkedlist/README.md)
     * [partition lists](knowledge-memo/2.-linkedlist/partition-lists.md)
     * [21. merge two sorted lists](knowledge-memo/2.-linkedlist/merge-two-sorted-lists.md)
