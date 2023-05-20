@@ -4,7 +4,7 @@ Merge _k_ sorted linked lists and return it as one sorted list.
 
 Analyze and describe its complexity.Have you met this question in a real interview?  YesProblem Correction
 
-```text
+```
 Example:
 Given lists:
 [
@@ -19,9 +19,9 @@ return `-1->2->4->null`.
 {% tabs %}
 {% tab title="Notes" %}
 * PriorityQueue
-* divide and conquer 
+* divide and conquer&#x20;
 * bottom up
-* O\(nlogk\): n: \# of all elements
+* O(nlogk): n: # of all elements
 {% endtab %}
 
 {% tab title="Solution" %}
@@ -83,12 +83,6 @@ class Solution {
     }
     
     public ListNode mergeTwoLists(ListNode head1, ListNode head2) {
-        if (head1 == null) {
-            return head2;
-        } else if (head2 == null) {
-            return head1;
-        }
-        
         ListNode dummy = new ListNode(0), node = dummy;
         while (head1 != null && head2 != null) {
             if (head1.val < head2.val) {
@@ -139,4 +133,3 @@ class Solution {
 ```
 {% endtab %}
 {% endtabs %}
-
