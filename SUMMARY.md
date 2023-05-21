@@ -24,6 +24,7 @@
     * [palindrome linked list](knowledge-memo/2.-linkedlist/palindrome-linked-list.md)
     * [copy list with random pointer](knowledge-memo/2.-linkedlist/copy-list-with-random-pointer.md)
     * [lru cache](knowledge-memo/2.-linkedlist/lru-cache.md)
+    * [Reverse Nodes in k-group](knowledge-memo/2.-linkedlist/reverse-nodes-in-k-group.md)
   * [3. Stack and Queue](knowledge-memo/3.-stack-and-queue/README.md)
     * [Stack](knowledge-memo/3.-stack-and-queue/stack/README.md)
       * [implement stack](knowledge-memo/3.-stack-and-queue/stack/implement-stack.md)
