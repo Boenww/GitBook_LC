@@ -62,7 +62,29 @@ public ListNode deleteDuplicates(ListNode head) {
 
     return dummy.next;
 }
+
+// recursive
+public ListNode deleteDuplicates(ListNode head) {
+    if (head == null || head.next == null) {
+        return head;
+    }
+
+    ListNode cur = head;
+    while (cur.next != null && cur.val == cur.next.val) {
+        cur = cur.next;
+    }
+
+    if (cur.next == null) {
+        return null;
+    }
+
+    if (cur == head) {
+        head.next = deleteDuplicates(cur.next);
+        return head;
+    }
+
+    return deleteDuplicates(cur.next);
+}
 ```
 {% endtab %}
 {% endtabs %}
-
