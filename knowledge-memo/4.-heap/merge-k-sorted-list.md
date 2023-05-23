@@ -33,6 +33,8 @@ class Solution {
             return null;
         }
         
+        // java 8 pq
+        // new PriorityQueue<>((a, b) -> Integer.compare(a.val, b.val));
         Queue<ListNode> pq = new PriorityQueue<>(lists.length, new Comparator<ListNode>() {
             @Override
             public int compare(ListNode node1, ListNode node2) {
