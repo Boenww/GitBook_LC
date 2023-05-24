@@ -1,10 +1,43 @@
-# sort colors II
+# sort colors I && II
 
-Given an array of _n_ objects with _k_ different colors \(numbered from 1 to k\), sort them so that objects of the same color are adjacent, with the colors in the order 1, 2, ... k. A rather straight forward solution is a two-pass algorithm using counting sort. That will cost O\(k\) extra memory. Can you do it without using extra memory?
+### I
+
+Given an array with 0, 1, 2 and sort. Input: \[1, 0, 1, 2]. Expected output: \[0, 1, 1, 2]. Iterate only once.
 
 {% tabs %}
 {% tab title="Notes" %}
-* Given k, O\(nlogk\) can be achieved with partitioning.
+
+{% endtab %}
+
+{% tab title="Solution" %}
+```java
+public void sortColors(int[] nums) {
+    if (nums == null) {
+        return;
+    }
+
+    int i = 0, left = 0, right = nums.length - 1;
+    while (i <= right) {
+        if (nums[i] == 0) {
+            swap(nums, left++, i++);
+        } else if (nums[i] == 2) {
+            swap(nums, right--, i);
+        } else {
+            i++;
+        }
+    }
+}
+```
+{% endtab %}
+{% endtabs %}
+
+### II
+
+Given an array of _n_ objects with _k_ different colors (numbered from 1 to k), sort them so that objects of the same color are adjacent, with the colors in the order 1, 2, ... k. A rather straight forward solution is a two-pass algorithm using counting sort. That will cost O(k) extra memory. Can you do it without using extra memory?
+
+{% tabs %}
+{% tab title="Notes" %}
+* Given k, O(nlogk) can be achieved with partitioning.
 {% endtab %}
 
 {% tab title="Solution" %}
@@ -48,4 +81,3 @@ public class Solution {
 ```
 {% endtab %}
 {% endtabs %}
-

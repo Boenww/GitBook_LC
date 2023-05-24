@@ -116,7 +116,7 @@
     * [Problems](algorithms/2.-sorting/problems/README.md)
       * [kth smallest/largest element in an array](algorithms/2.-sorting/problems/kth-smallest-largest-element-in-an-array.md)
       * [median](algorithms/2.-sorting/problems/median.md)
-      * [sort colors II](algorithms/2.-sorting/problems/sort-colors-ii.md)
+      * [sort colors I && II](algorithms/2.-sorting/problems/sort-colors-ii.md)
       * [969. pancake sorting](algorithms/2.-sorting/problems/pancake-sorting.md)
   * [2. Two Pointers](algorithms/5.-two-pointers/README.md)
     * [binary search](algorithms/5.-two-pointers/binary-search/README.md)
