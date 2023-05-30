@@ -66,8 +66,9 @@ public class MinStack {
     }
 
     public int pop() {
-        if (stack.peek().equals(minStack.peek()) ) // equals!!! Integer object
+        if (stack.peek().equals(minStack.peek())) { // equals!!! Integer object
             minStack.pop();
+        }
         return stack.pop();
     }
 
