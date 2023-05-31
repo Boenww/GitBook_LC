@@ -219,3 +219,4 @@
   * [Linux](general-knowledge/linux.md)
   * [TCP/IP](general-knowledge/tcp-ip.md)
   * [Java](general-knowledge/java.md)
+  * [Kafka](general-knowledge/kafka.md)
