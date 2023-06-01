@@ -4,7 +4,9 @@ description: 分布式消息队列/distributed streaming platform
 
 # Kafka
 
-## Zookeeper
+Producer, Consumer (Group), Broker (Kafka node server), Zookeeper
+
+### Zookeeper
 
 * 管理集群配置
 * 选举leader
@@ -12,6 +14,15 @@ description: 分布式消息队列/distributed streaming platform
 
 <figure><img src="../.gitbook/assets/kafka components.png" alt=""><figcaption></figcaption></figure>
 
-Consumer group
+### Consumer group
 
 每个consumer属于一个特定的consumer group，一条消息可发送多个consumer group，但一个consumer group中只能有一个consumer消费该消息。
+
+### Partition
+
+同一个topic的partition分别存储在kafka集群的多个broker上。存储层面讲，每个partition都是一个有序的、不可变的记录序列，通俗点就是一个append log文件。producer push的消息是append到partition中的，顺序写磁盘效率远高于随机写内存。
+
+### Segment
+
+实际的存储粒度，一个partition物理上由多个segment组成。由两部分组成，分别是.index索引和.log数据文件。索引文件中的元数据指向的是对应数据文件中消息的物理偏移地址。索引文件是有序的，可通过二分查找快速定位。如何判断读完一条消息？通过消息在磁盘上的物理存储结构（其中包含偏移量、消息体长度等可度量消息终止地址的数据）。
+
