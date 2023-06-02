@@ -50,7 +50,7 @@ drwxr-xr-x 2 root root 4096 Oct 15 13:21 mytopic_test-3
 * Leader: 跟producer和consumer交互；
 * Follower: 被动备份leader中的数据
 * ISR (In Sync Replica): 包含leader和所有与leader保持同步的follower，动态变化的
-* OSR (Out of Sync Replica): 新加入的follower会先存放在OSR中；当follower从leader同步数据延迟超过阈值（replica.lag.time.max.ms）时，将被剔除出ISR，存入OSR。
+* OSR (Out of Sync Replica): 当follower从leader同步数据延迟超过阈值（replica.lag.time.max.ms）时，将被剔除出ISR，存入OSR。
 
 <figure><img src="../.gitbook/assets/HW &#x26; LEO.png" alt=""><figcaption></figcaption></figure>
 
