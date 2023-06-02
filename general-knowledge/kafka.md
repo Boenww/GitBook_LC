@@ -83,7 +83,19 @@ request.required.acks=-1, min.insync.replicas
 
 
 
-批量发送：当消息的目标partition相同时，producer会尝试batch request。
+Kafka java 客户端使用异步方式发送消息，实际上将消息放入了一个后台发送队列，之后由一个后台线程不断地从队列中取出消息并发送。
+
+**linger.ms**: 如果消息到达的速度比后台线程发送到partition的速度快，则会出现消息堆积的问题。这时客户端可通过添加人工延迟来减少请求数量，也就是说，producer将等待给定延迟后才允许发送其它消息。其具有减少发送请求数量的效果，但在没有负载的情况下将增加延迟。
+
+**buffer.memory**: 消息堆积策略参数，producer可以用来缓冲等待发送给服务器消息的字节数。
+
+**max.block.ms**: 消息堆积策略参数，在buffer.memory被占满后，producer可阻塞的最大时间，之后将抛出异常。
+
+**批量发送**：当消息的目标partition相同时，producer会尝试batch request。
 
 可通过参数max.in.flight.requests.per.connection = 1避免消息重排序问题（T1, T2 -> T1 fails and T2 succeeds, T1 retries -> T2, T1）
+
+
+
+
 
