@@ -48,7 +48,7 @@ drwxr-xr-x 2 root root 4096 Oct 15 13:21 mytopic_test-3
 <figure><img src="../.gitbook/assets/kafka replica.png" alt=""><figcaption></figcaption></figure>
 
 * Leader: 跟producer和consumer交互；
-* Follower: 被动备份leader中的数据
+* Follower: 备份leader中的数据
 * ISR (In Sync Replica): 包含leader和所有与leader保持同步的follower，动态变化的
 * OSR (Out of Sync Replica): 当follower从leader同步数据延迟超过阈值（replica.lag.time.max.ms）时，将被剔除出ISR，存入OSR。
 
@@ -75,5 +75,15 @@ request.required.acks=-1, min.insync.replicas
 
 
 
+**截断机制**：当宕机的旧leader重新上线时，会将自己的数据截断到宕机前HW位置，然后再同步新leader的数据。
 
+
+
+消息生产过程中保证数据可靠性的策略（request.required.acks, min.insync.replicas）无法避免出现重复消息。例如producer发送消息给leader，leader同步数据给follower的时候宕机，此时选举出的新leader可能只有部分此次提交的数据，但生产者收到发送失败响应将重新发送数据。因此，kafka只支持at most once & at least once, not exactly once。消息去重需要在具体业务中实现。
+
+
+
+批量发送：当消息的目标partition相同时，producer会尝试batch request。
+
+可通过参数max.in.flight.requests.per.connection = 1避免消息重排序问题（T1, T2 -> T1 fails and T2 succeeds, T1 retries -> T2, T1）
 
