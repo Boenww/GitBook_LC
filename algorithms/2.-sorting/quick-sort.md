@@ -19,6 +19,7 @@ swap i and j, repeat
 * case ==pivot: also swap value -> reduce problem scale and let them be as equal as possible
 * not stable
 * global to local
+* why i < j doesn't work: \[3, 2, 1, 4, 5], will TLE on \[1, 2] finally
 {% endtab %}
 
 {% tab title="Solution" %}
@@ -37,6 +38,7 @@ private static void quickSortHelper(int[] array, int left, int right) {
 
 	while (i <= j) {
 		while (i <= j && array[i] < pivot) { // 
+		
 			i++;
 		}
 
