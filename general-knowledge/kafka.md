@@ -79,7 +79,7 @@ request.required.acks=-1, min.insync.replicas
 
 
 
-消息生产过程中保证数据可靠性的策略（request.required.acks, min.insync.replicas）无法避免出现重复消息。例如producer发送消息给leader，leader同步数据给follower的时候宕机，此时选举出的新leader可能只有部分此次提交的数据，但生产者收到发送失败响应将重新发送数据。因此，kafka只支持at most once & at least once, not exactly once。消息去重需要在具体业务中实现。
+消息生产过程中保证数据可靠性的策略（request.required.acks, min.insync.replicas）无法避免出现重复消息。例如producer发送消息给leader，leader同步数据给follower的时候宕机，此时选举出的新leader可能只有部分此次提交的数据，但生产者收到发送失败响应将重新发送数据。因此，kafka只支持at most once & at least once, not exactly once。消息去重需要在具体业务中实现，做好幂等，数据库方面可以（唯一键和主键）避免重复。
 
 
 
@@ -96,6 +96,8 @@ Kafka java 客户端使用异步方式发送消息，实际上将消息放入了
 可通过参数max.in.flight.requests.per.connection = 1避免消息重排序问题（T1, T2 -> T1 fails and T2 succeeds, T1 retries -> T2, T1）
 
 
+
+**活锁**：消费者持续维持心跳，但没有进行消息处理。利用max.poll.interval.ms活跃检测机制。
 
 
 
