@@ -17,3 +17,14 @@
 
 * CAS (Compare and Swap, 3 operands: memory location & expected value & new value, like AtomicInteger)，效率低。
 * 线程在堆中预分配内存，一般采用这种策略。
+
+
+
+## Spring
+
+### AOP
+
+
+
+### IoC (DI)
+
