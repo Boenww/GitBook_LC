@@ -220,3 +220,4 @@
   * [TCP/IP](general-knowledge/tcp-ip.md)
   * [Java](general-knowledge/java.md)
   * [Kafka](general-knowledge/kafka.md)
+  * [Docker & k8s](general-knowledge/docker-and-k8s.md)
