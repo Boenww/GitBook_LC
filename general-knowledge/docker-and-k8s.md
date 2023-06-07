@@ -20,6 +20,12 @@
 
 
 
+### DaemonSet
+
+会在每个k8s集群中的节点上运行，并且每个节点只能运行一个pod。一般使用场景：每个节点的日志收集和监控运行状态。
+
+
+
 ### 创建pod过程
 
 1. client -pod配置-> apiserver
@@ -29,6 +35,18 @@
 5. kubelet -pod运行信息-> scheduler -> etcd
 
 ### 删除pod过程
+
+
+
+## k8s cluster-api
+
+provides declarative lifecycle management for k8s clusters, k8s for k8s
+
+* provider: interact with underlying IaaS, e.g. CAPA, CAPZ and CAPV
+* management cluster: where cluster api components are installed, CRDs and controllers
+* workload cluster
+
+
 
 
 
