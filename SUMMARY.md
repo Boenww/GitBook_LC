@@ -217,7 +217,7 @@
   * [Process Thread Coroutine](general-knowledge/process-thread-coroutine.md)
   * [Nginx](general-knowledge/nginx.md)
   * [Linux](general-knowledge/linux.md)
-  * [TCP/IP](general-knowledge/tcp-ip.md)
+  * [Network](general-knowledge/tcp-ip.md)
   * [Java](general-knowledge/java.md)
   * [Kafka](general-knowledge/kafka.md)
   * [Docker & k8s](general-knowledge/docker-and-k8s.md)
