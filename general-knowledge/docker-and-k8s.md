@@ -2,6 +2,13 @@
 
 ## Docker
 
+### network model
+
+* host network: the container share the same network namespace with the host. 容器之间需要通过主机转发才能通信。
+* bridge: 为每个容器创建虚拟网桥，网桥负责转发数据包。
+* link: 在每个容器中创建一个虚拟网络接口
+* overlay: 用SDN创建虚拟网络层；应用更广泛，提供了更大的灵活性和可扩展性，可通过VXLAN或者IP-in-IP封装方法实现，核心思想都是在原始数据包上添加额外的头部信息。
+
 
 
 ## k8s
