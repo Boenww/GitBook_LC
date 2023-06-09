@@ -3,7 +3,7 @@
 访问Web URL，发生了什么？
 
 1. 域名解析：通过域名查找IP
-2. TCP handshake
+2. TCP handshake + TLS handshake if required (非对称加密交换密钥+对称加密交换数据)
 3. 发送HTTP请求
 4. 服务器处理请求并返回结果
 5. 断开连接
