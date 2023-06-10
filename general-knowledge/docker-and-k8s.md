@@ -2,6 +2,8 @@
 
 ## Docker
 
+
+
 ### network model
 
 * host network: the container share the same network namespace with the host. 容器之间需要通过主机转发才能通信。
@@ -27,9 +29,13 @@
 
 
 
-### DaemonSet
+### DaemonSet资源对象
 
 会在每个k8s集群中的节点上运行，并且每个节点只能运行一个pod。一般使用场景：每个节点的日志收集和监控运行状态。
+
+### Service资源对象
+
+给相同的多个pod提供固定的统一访问接口，用于服务发现和访问。load balancing, i.e. distribute network traffic across the pods that belong to the service.
 
 
 
@@ -41,13 +47,15 @@
 4. scheduler -> 选择适合pod资源配置要求的节点 -pod资源配置单-> node的kubelet
 5. kubelet -pod运行信息-> scheduler -> etcd
 
-### 删除pod过程
+### 如何访问集群内的pod
+
+Nodeport which means k8s will listen to a fixed port in all the nodes and forward the traffic to the target port of pods/service, others like Ingress and ExternalIP.
 
 
 
 ## k8s cluster-api
 
-provides declarative lifecycle management for k8s clusters, k8s for k8s
+provides declarative lifecycle management for k8s clusters, aka k8s for k8s
 
 * provider: interact with underlying IaaS, e.g. CAPA, CAPZ and CAPV
 * management cluster: where cluster api components are installed, CRDs and controllers
