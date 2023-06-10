@@ -2,6 +2,26 @@
 
 ## Docker
 
+### vs VM
+
+
+
+### 组成部分
+
+Docker client, daemon, image, container
+
+### Dockerfile
+
+构建镜像的所有命令
+
+
+
+### 怎么实现隔离
+
+namespace and cgroups来实现资源隔离和控制容器内进程对系统资源的消耗。
+
+
+
 
 
 ### network model
@@ -27,7 +47,12 @@
   * kubelet: node的代理，维护容器的生命周期
   * kube-proxy: node的网络代理，负责为service提供负载均衡将请求转发到pod上
 
+### More Kubelet
 
+* node management: interact with api-server abt the node status
+* pod management: create, update or delete a pod
+* container health check: startup, liveness (container run), readiness (handle traffic) probes
+* resource monitor: get node & pod's data by Metrics Server
 
 ### DaemonSet资源对象
 
