@@ -4,7 +4,14 @@
 
 ### vs VM
 
+<figure><img src="../.gitbook/assets/containerVsVM.png" alt=""><figcaption></figcaption></figure>
 
+| Container                                                   | VM                                                              |
+| ----------------------------------------------------------- | --------------------------------------------------------------- |
+| os-level virtualization                                     | hardware-level virtualization                                   |
+| share hardware resources, e.g. CPU, mem and storage         | has its own virtual hardware resources, allocated by hypervisor |
+| faster startup/second-level time                            | slower as need to boot an entire os                             |
+| isolated process with its own namespace and resource limits | stronger isolation and better security                          |
 
 ### 组成部分
 
@@ -12,19 +19,20 @@ Docker client, daemon, image, container
 
 ### Dockerfile
 
-构建镜像的所有命令
+* base image（FROM）
+* MAINTAINER信息
+* 镜像操作指令（RUN）
+* 容器启动时执行的指令（CMD or ENTRYPOINT）
 
+### 容器怎么实现隔离
 
-
-### 怎么实现隔离
-
-namespace and cgroups来实现资源隔离和控制容器内进程对系统资源的消耗。
-
-
+namespaces and cgroups来实现资源隔离和资源限制（控制容器内进程对系统资源的消耗）。
 
 ### 分层
 
+一个完整的镜像可拆分为多个只读层，每个层代表一个修改的增量。UnionFS支持将多个文件系统合并为一个联合文件系统，通过在镜像的每个层上创建UnionFS的branch，实现多层的联合视图。
 
+copy-on-write这一策略用于在修改镜像时，先创建一个独立的写入层，不会影响到原始的只读层。这样只有被修改的文件的副本会被创建，其他文件仍共享相同的只读层，减少了存储空间，提高了容器启动和文件操作的性能。
 
 ### network model
 
