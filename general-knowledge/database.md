@@ -12,3 +12,8 @@
 ### 主从复制
 
 <figure><img src="../.gitbook/assets/db_master-slave.png" alt=""><figcaption></figcaption></figure>
+
+### 索引数据结构
+
+B-/+ tree reading [https://mp.weixin.qq.com/s/RWkc2lNarKnn8Dc0HrP58g](https://mp.weixin.qq.com/s/RWkc2lNarKnn8Dc0HrP58g)
+
