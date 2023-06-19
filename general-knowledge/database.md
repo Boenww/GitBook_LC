@@ -33,5 +33,7 @@ B-/+ tree reading [https://mp.weixin.qq.com/s/RWkc2lNarKnn8Dc0HrP58g](https://mp
 
 <figure><img src="../.gitbook/assets/index_types.jpeg" alt=""><figcaption></figcaption></figure>
 
+### 索引下推
 
+把额外的过滤条件下推到索引扫描阶段，减少回表和需要读取的数据量。
 
