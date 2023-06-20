@@ -222,3 +222,4 @@
   * [Database](general-knowledge/database.md)
   * [Kafka](general-knowledge/kafka.md)
   * [Docker & k8s](general-knowledge/docker-and-k8s.md)
+  * [Distributed & Microservices](general-knowledge/distributed-and-microservices.md)
