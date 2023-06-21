@@ -97,3 +97,22 @@ compiler -Java cod-> byte code -> class loader加载到内存中 -> execution en
 
 ### IoC (DI)
 
+
+
+## 并发
+
+### volatile作用
+
+* 保证可见行：读取前从主内存中刷新，写入后立即同步回主内存。
+* 防止指令重排
+* 不保证原子性：e.g. 两个线程各自执行count++，可能导致最终count结果为1，不是预期的2
+
+### 线程间通信协作方式
+
+* volatile
+* wait/notify
+* join
+* ThreadLocal: e.g. 主线程threadLocal.set, 子线程threadLocal.get
+
+
+
