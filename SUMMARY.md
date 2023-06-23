@@ -215,7 +215,6 @@
   * [10. Divide & Conquer](algorithms/10.-divide-and-conquer.md)
   * [11. Union Find](algorithms/11.-union-find.md)
 * [General Knowledge](general-knowledge/README.md)
-  * [Process Thread Coroutine](general-knowledge/process-thread-coroutine.md)
   * [Web](general-knowledge/web.md)
   * [Nginx](general-knowledge/nginx.md)
   * [Linux](general-knowledge/linux.md)
