@@ -42,6 +42,16 @@
 | unfair lock                               | unfair lock by default, fair lock by constructor    |
 | less flexible as language-level construct | more flexible, e.g. Condition variables             |
 
+### synchronized底层实现
+
+JVM会找到对象的monitor，如果成功加锁就称为该monitor的唯一持有者，monitor在被释放前不能再被其它线程获取。
+
+synchronized在编译后会产生monitorenter和monitorexit字节码指令，并需要一个引用类型的参数指明要锁定和解锁的对象，i.e.
+
+* 同步实例方法：实例对象
+* 同步静态方法：Class对象
+* 同步方法块：括号里的对象
+
 ### CountDownLatch vs CyclicBarrier
 
 * CDL: 计数器，可以调整线程之间的执行顺序
