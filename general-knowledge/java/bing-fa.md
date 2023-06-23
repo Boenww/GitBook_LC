@@ -40,7 +40,7 @@
 | implicit lock                             | explicit lock, i.e. need lock and unlock manually   |
 | 等待锁时不可中断                                  | 可通过lockInterruptibly()在等待获取锁时，响应中断，i.e. interrupt() |
 | unfair lock                               | unfair lock by default, fair lock by constructor    |
-| less flexible as language-level construct | more flexible, e.g. condition variables             |
+| less flexible as language-level construct | more flexible, e.g. Condition variables             |
 
 ### CountDownLatch vs CyclicBarrier
 
