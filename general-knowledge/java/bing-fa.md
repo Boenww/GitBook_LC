@@ -35,6 +35,15 @@
 * join
 * ThreadLocal: e.g. 主线程threadLocal.set, 子线程threadLocal.get
 
+### 进程间通信
+
+* 管道
+* 信号
+* 消息队列
+* 共享内存
+* 内存映射
+* socket
+
 ### synchronized vs ReentrantLock
 
 | synchronized                              | ReentrantLock                                       |
