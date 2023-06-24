@@ -13,6 +13,11 @@
 
 <figure><img src="../.gitbook/assets/db_master-slave.png" alt=""><figcaption></figcaption></figure>
 
+* master: 对数据库执行更改的所有操作记录在binlog中
+* slave:
+  * io thread: 读取binlog内容并写进自己的relay log中
+  * sql thread: 执行relay log中的语句
+
 ### 索引数据结构
 
 B-/+ tree reading [https://mp.weixin.qq.com/s/RWkc2lNarKnn8Dc0HrP58g](https://mp.weixin.qq.com/s/RWkc2lNarKnn8Dc0HrP58g)
