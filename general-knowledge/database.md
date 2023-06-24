@@ -22,9 +22,9 @@
 
 B-/+ tree reading [https://mp.weixin.qq.com/s/RWkc2lNarKnn8Dc0HrP58g](https://mp.weixin.qq.com/s/RWkc2lNarKnn8Dc0HrP58g)
 
-
-
 ### 索引类型
+
+<figure><img src="../.gitbook/assets/index_types.jpeg" alt=""><figcaption></figcaption></figure>
 
 | 索引类型    | 描述                                                  |
 | ------- | --------------------------------------------------- |
@@ -35,8 +35,6 @@ B-/+ tree reading [https://mp.weixin.qq.com/s/RWkc2lNarKnn8Dc0HrP58g](https://mp
 | 唯一索引    | 保证索引列中的值唯一，不允许重复值的存在。                               |
 | 外键索引    | 基于外键列，用于维护表之间的引用完整性。                                |
 | 全文索引    | 用于对文本数据进行全文搜索，支持关键词搜索、模糊搜索和语义搜索等功能。                 |
-
-<figure><img src="../.gitbook/assets/index_types.jpeg" alt=""><figcaption></figcaption></figure>
 
 ### 索引下推
 
