@@ -50,7 +50,7 @@
 | ----------------------------------------- | --------------------------------------------------- |
 | implicit lock                             | explicit lock, i.e. need lock and unlock manually   |
 | 等待锁时不可中断                                  | 可通过lockInterruptibly()在等待获取锁时，响应中断，i.e. interrupt() |
-| unfair lock                               | unfair lock by default, fair lock by constructor    |
+| unfair lock (线程饥饿)                        | unfair lock by default, fair lock by constructor    |
 | less flexible as language-level construct | more flexible, e.g. Condition variables             |
 
 ### synchronized底层实现
@@ -62,6 +62,10 @@ synchronized在编译后会产生monitorenter和monitorexit字节码指令，并
 * 同步实例方法：实例对象
 * 同步静态方法：Class对象
 * 同步方法块：括号里的对象
+
+### 锁的可重入性
+
+线程可以进入任何一个它已经拥有的锁所同步着（同一个管程对象上）的代码块。synchronized同步块是可重入的。
 
 ### CountDownLatch vs CyclicBarrier
 
