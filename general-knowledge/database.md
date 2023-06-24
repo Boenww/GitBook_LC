@@ -61,6 +61,4 @@ B-/+ tree reading [https://mp.weixin.qq.com/s/RWkc2lNarKnn8Dc0HrP58g](https://mp
 | 读锁       |                                                         | Next-Key锁           | 记录锁+间隙锁                            |
 | 写锁       |                                                         | InsertIntentionLock | 允许多个事务在并发插入数据时共享表级锁，不需要每个事务都获取行级锁。 |
 | AUTO-INC | 保证自增字段的唯一性和顺序性                                          |                     |                                    |
-|          |                                                         |                     |                                    |
-|          |                                                         |                     |                                    |
 
