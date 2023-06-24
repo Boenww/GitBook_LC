@@ -91,4 +91,12 @@ compiler -Java cod-> byte code -> class loader加载到内存中 -> execution en
 
 ### 内存泄漏
 
-长生命周期对象持有短生命周期对象的引用可能导致内存泄漏
+长生命周期对象持有短生命周期对象的引用可能导致内存泄漏，常见场景如静态集合类、各种连接、单例模式等。
+
+```
+// 静态类生命周期与应用程序一样长，导致object对象不能被GC回收
+Object o = new Object();
+vector.add(object);
+object = null;
+```
+
