@@ -1,5 +1,7 @@
 # 并发
 
+<figure><img src="../../.gitbook/assets/concurrent_and_parallel.png" alt=""><figcaption><p>并发并行</p></figcaption></figure>
+
 ### Process Thread Coroutine
 
 ![](../../.gitbook/assets/协程.jpeg)
