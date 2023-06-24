@@ -62,3 +62,27 @@ B-/+ tree reading [https://mp.weixin.qq.com/s/RWkc2lNarKnn8Dc0HrP58g](https://mp
 | 写锁       |                                                         | InsertIntentionLock | 允许多个事务在并发插入数据时共享表级锁，不需要每个事务都获取行级锁。 |
 | AUTO-INC | 保证自增字段的唯一性和顺序性                                          |                     |                                    |
 
+### change buffer
+
+在不影响数据一致性的前提下，如果内存中没有需要更新的数据页，InnoDB会把更新操作缓存在change buffer中，在下次查询需要访问这个数据页的时候，将其读入内存并执行change buffer中与其有关的操作。唯一性索引更新不能使用。适用于写多读少的业务如账单、日志类的系统。
+
+### binlog & redo log
+
+binlog可以实现主从复制和数据恢复。
+
+binlog需要配合redo log才可以crash safe。
+
+binlog是追加日志，保存的是全量的日志。redo log是循环写，只会记录未刷盘的日志。每次更新操作完成后，就一定会写入日志，如果写入失败，事务也不可能提交。
+
+### 2PC
+
+为了保证redo log和binlog数据的安全一致性。在恢复数据时，relog状态为commit，则说明binlog也成功，直接恢复数据；如果binlog是prepare，则需要查询对应的binlog事务是否成功，决定回滚还是执行。
+
+<figure><img src="../.gitbook/assets/Screenshot 2023-06-24 at 22.35.15.png" alt=""><figcaption></figcaption></figure>
+
+### WAL
+
+write-ahead logging在真正把数据修改写入磁盘前，先记录日志（顺序写入），保证事务的持久性和一致性。
+
+
+
