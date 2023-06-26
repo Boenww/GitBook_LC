@@ -2,7 +2,7 @@
 
 Merge _k_ sorted linked lists and return it as one sorted list.
 
-Analyze and describe its complexity.Have you met this question in a real interview?  YesProblem Correction
+Analyze and describe its complexity.
 
 ```
 Example:
