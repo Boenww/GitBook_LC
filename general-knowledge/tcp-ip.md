@@ -1,6 +1,6 @@
 # Network
 
-## 访问Web URL，发生了什么？
+### 访问Web URL，发生了什么？
 
 1. 域名解析：通过域名查找IP
 2. TCP handshake + TLS handshake if required (非对称加密交换密钥+对称加密交换数据)
@@ -10,9 +10,17 @@
 
 
 
-## why need 3-way handshake for TCP?
+### TCP handshake
+
+<figure><img src="../.gitbook/assets/tcp-3.png" alt=""><figcaption></figcaption></figure>
+
+### why need 3-way handshake for TCP?
 
 为了防止server端收到已经失效的连接请求报文段而建立连接后一直等待，浪费资源。
+
+
+
+
 
 
 
