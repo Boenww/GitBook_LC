@@ -41,7 +41,11 @@ ARP协议查询2层MAC地址
 
 <figure><img src="../.gitbook/assets/网络报文封装.png" alt=""><figcaption><p>网络报文封装</p></figcaption></figure>
 
+### HTTPS
 
+<figure><img src="../.gitbook/assets/How-HTTPS-Works2.png" alt=""><figcaption></figcaption></figure>
+
+##
 
 ## RPC vs REST
 
