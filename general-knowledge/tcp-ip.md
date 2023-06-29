@@ -18,7 +18,14 @@
 
 为了防止server端收到已经失效的连接请求报文段而建立连接后一直等待，浪费资源。
 
+### 4-way bye
 
+<figure><img src="../.gitbook/assets/tcp-4.png" alt=""><figcaption></figcaption></figure>
+
+TIME\_WAIT
+
+* 确保最后一个确认报文段能够到达。如果B没收到A发送来的ACK，就会重新发送FIN。
+* 为了让本连接持续时间内所产生的所有报文段从网络中消失，使下一个连接不会出现旧的报文段。
 
 
 
