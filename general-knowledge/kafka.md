@@ -67,7 +67,7 @@ request.required.acks=-1 (all) & ISR中的最小副本数min.insync.replicas
 ### 负载均衡
 
 * Producer: 将消息均衡地push到各个partition。低级接口中可以指定partition，但对负载均衡不友好。高级接口中一般不支持partition接口，隐藏了内部轮询、对传入key进行hash等策略从而均衡发送到各个partition的细节。
-* Consumer: 均衡地消费消息。基于zookeeper提供的watcher，consumer可以监听同一group中consumer的变化，以及broker的变化，进而根据consumer列表，将partition排序后，轮流分配。这一负载均衡的动态过程叫rebalance。
+* Consumer: 一个group内的consumers均衡地消费消息。基于zookeeper提供的watcher，consumer可以监听同一group中consumer的变化，以及broker的变化，进而根据consumer列表，将partition排序后，轮流分配。这一负载均衡的动态过程叫rebalance。
 
 
 
