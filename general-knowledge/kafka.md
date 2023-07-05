@@ -15,10 +15,6 @@ Producer, Consumer (Group), Broker (Kafka node server), Zookeeper
 * 选举leader
 * consumer group变化时rebalance
 
-### Consumer group
-
-每个consumer属于一个特定的consumer group，一条消息可发送多个consumer group，但一个consumer group中只能有一个consumer消费该消息。
-
 ### Partition
 
 同一个topic的partition分别存储在kafka集群的多个broker上。存储层面讲，每个partition都是一个有序的、不可变的记录序列，通俗点就是一个append log文件。producer push的消息是append到partition中的，顺序写磁盘效率远高于随机写内存。e.g. 4 partitions of topic "mytopic\_test" in kafka log directory
