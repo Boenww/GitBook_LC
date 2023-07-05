@@ -60,7 +60,7 @@ LEO (log end offset): log最后一条msg的位置。
 
 **如何保证可靠性的前提下避免吞吐量下降？**
 
-request.required.acks=-1, min.insync.replicas
+request.required.acks=-1 (all) & ISR中的最小副本数min.insync.replicas
 
 
 
