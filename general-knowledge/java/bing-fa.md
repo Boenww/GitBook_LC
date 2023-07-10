@@ -69,16 +69,32 @@ synchronized在编译后会产生monitorenter和monitorexit字节码指令，并
 
 ### CountDownLatch vs CyclicBarrier
 
-* CDL: 计数器，可以调整线程之间的执行顺序
+* CDL: 计数器，可以调整线程之间的执行顺序，不可重用
 
-```
+```java
 CountDownLatch down = new CountDownLatch(1);
 down.await();        // 线程挂起，等待count值为0时才继续执行
 down.countDown();    // count - 1
 down.getCount();
 ```
 
-* CB: 允许多个线程相互等待，等达到一个共同点后再继续执行，e.g. 计算数据最后合并计算结果。
+* CB: 允许多个线程相互等待，等达到一个共同点后再继续执行，e.g. 计算数据最后合并计算结果。reset后可以重用。
+
+### Semaphore
+
+控制并发数，通过acquire()获得一个许可（acquire阻塞，tryAcquire非阻塞，立即得到执行结果），如果没有就等待，而release()释放一个许可。
+
+```java
+public Semaphore(int permits) {
+    //参数permits表示许可数目，即同时可以允许多少线程进行访问
+    sync = new NonfairSync(permits);
+}
+
+public Semaphore(int permits, boolean fair) {    
+    //这个多了一个参数fair表示是否是公平的，即等待时间越久的越先获取许可    
+    sync = (fair) ? new FairSync(permits) : new NonfairSync(permits);
+}
+```
 
 ### 银行家算法
 
