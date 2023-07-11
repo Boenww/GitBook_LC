@@ -106,18 +106,67 @@ public Semaphore(int permits, boolean fair) {
 * 按一定顺序申请锁
 * 非阻塞锁，e.g. tryLock()
 
-### Dead lock
+### 产生死锁
 
 ```java
+import java.util.concurrent.locks.ReentrantLock;
 
+class DeadLock {
+	private static ReentrantLock lock1 = new ReentrantLock();
+	private static ReentrantLock lock2 = new ReentrantLock();
+	// use sleep or CDL
+	// private static CountDownLatch latch = new CountDownLatch(2);
 
+	public static void main(String[] args) {
+		Thread thead1 = new Thread(() -> {
+			lock1.lock();
+			// latch.countDown();
+			try {
+				Thread.sleep(1000); // latch.await();
+				lock2.lock();
+				try {
+					// tasks requiring lock1 & lock2
+					// ...
+
+				} finally {
+					lock2.unlock();
+				}
+
+			} catch (InterruptedException e) {
+				e.printStackTrace();
+			} finally {
+				lock1.unlock();
+			}
+		}).start();
+
+		Thread thread2 = new Thread(() -> {
+			lock2.lock();
+			// latch.countDown();
+			try {
+				Thread.sleep(1000); // latch.await();
+				lock1.lock();
+
+				try {
+					// tasks requiring lock1 & lock2
+					// ...
+
+				} finally {
+					lock1.unlock();
+				}
+			} catch (InterruptedException e) {
+				e.printStackTrace();
+			} finally {
+				lock2.unlock();
+			}
+		}).start();
+	}
+}
 ```
 
-### Producer Consumer
+### Producer & Consumer
 
 {% code lineNumbers="true" %}
 ```java
-// Producer & Consumer
 class Producer implements Runnable {
 	private Queue<Integer> queue;
 	private int capacity;
