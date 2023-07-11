@@ -105,3 +105,98 @@ public Semaphore(int permits, boolean fair) {
 * 减小锁范围
 * 按一定顺序申请锁
 * 非阻塞锁，e.g. tryLock()
+
+### Dead lock
+
+```java
+
+
+```
+
+### Producer Consumer
+
+{% code lineNumbers="true" %}
+```java
+// Producer & Consumer
+class Producer implements Runnable {
+	private Queue<Integer> queue;
+	private int capacity;
+
+	public class Producer(Queue<Integer> queue, int capacity) {
+		this.queue = queue;
+		this.capacity = capacity;
+	}
+
+	@Override
+	public void run() {
+		try {
+		  	int num = 0;
+			while (true) {
+				synchronized (queue) {
+					while (queue.size() == capacity) {
+						queue.wait();
+					}
+
+					queue.add(num);
+					System.out.println("Produced: " + num);
+					num++;
+
+					// notify the consumer thread that a number is avail
+					queue.notifyAll(); 				
+				}
+
+				// simulate some delay between producing numbers
+				Thread.sleep(1000);
+			}
+		} catch (InterruptedException e) {
+			e.printStackTrace();
+		}
+	}
+}
+
+class Consumer implements Runnable {
+	Queue<Integer> queue;
+
+	public class Consumer(Queue<Integer> queue) {
+		this.queue = queue;
+	}
+
+	@Override
+	public void run() {
+		try {
+			while (true) {
+				synchronized (queue) {
+					while (queue.isEmpty()) {
+						queue.wait();
+					}
+
+					int num = queue.poll();
+					System.out.println("Consumed: " + num);
+
+					queue.notifyAll();
+				}
+				
+				// simulate some delay between consuming numbers
+				Thread.sleep(1000);
+			}
+		} catch (InterruptedException e) {
+			e.printStackTrace();
+		}
+
+
+	}
+}
+
+public class Test {
+	public static void main(String[] args) {
+		Queue<Integer> queue = new ArrayBlockingQueue<>(5);
+
+		Thread producer = new Thread(new Producer(queue, 5));
+		Thread consumer = new Thread(new Consumer(queue));
+
+		producer.start();
+		consumer.start();
+	}
+}
+```
+{% endcode %}
