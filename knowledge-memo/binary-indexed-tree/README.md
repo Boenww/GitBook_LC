@@ -1,8 +1,10 @@
 # \* binary indexed tree
 
-Regarding to an array of size N, BIT supports updating value in certain index and getting prefix sum in log(N) time. BIT\[0] is set as empty.
+Regarding to an array of size N, BIT supports updating value in certain index and getting prefix sum in log(N) time. BIT\[0] is set as empty. 根据数字的二进制表示来对数组中的元素进行逻辑上的分层存储。
 
 <figure><img src="../../.gitbook/assets/bit.png" alt=""><figcaption></figcaption></figure>
+
+<figure><img src="../../.gitbook/assets/bit_structure (1).png" alt=""><figcaption><p>求前缀和=向上寻找母节点的过程</p></figcaption></figure>
 
 ## getPrefixSum(idx)
 
