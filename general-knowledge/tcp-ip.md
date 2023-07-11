@@ -8,7 +8,9 @@
 4. 服务器处理请求并返回结果
 5. 断开连接
 
+**域名解析**：浏览器缓存->系统缓存->本地DNS服务器（网络接入服务商提供，e.g. 电信移动）->根域名服务器->域服务器（e.g. .com域服务器）->域名服务器
 
+<figure><img src="../.gitbook/assets/dns.jpeg" alt=""><figcaption></figcaption></figure>
 
 ### TCP handshake
 
