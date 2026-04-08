@@ -171,7 +171,7 @@ class Producer implements Runnable {
 	private Queue<Integer> queue;
 	private int capacity;
 
-	public class Producer(Queue<Integer> queue, int capacity) {
+	public Producer(Queue<Integer> queue, int capacity) {
 		this.queue = queue;
 		this.capacity = capacity;
 	}
@@ -180,24 +180,24 @@ class Producer implements Runnable {
 	public void run() {
 		try {
 		  	int num = 0;
-			while (true) {
-				synchronized (queue) {
-					while (queue.size() == capacity) {
-						queue.wait();
+				while (true) {
+					synchronized (queue) {
+						while (queue.size() == capacity) {
+							queue.wait();
+						}
+	
+						queue.add(num);
+						System.out.println("Produced: " + num);
+						num++;
+	
+						// notify the consumer thread that a number is avail
+						queue.notifyAll(); 				
 					}
-
-					queue.add(num);
-					System.out.println("Produced: " + num);
-					num++;
-
-					// notify the consumer thread that a number is avail
-					queue.notifyAll(); 				
+	
+					// simulate some delay between producing numbers
+					Thread.sleep(1000);
 				}
-
-				// simulate some delay between producing numbers
-				Thread.sleep(1000);
-			}
-		} catch (InterruptedException e) {
+			} catch (InterruptedException e) {
 			e.printStackTrace();
 		}
 	}
@@ -206,7 +206,7 @@ class Producer implements Runnable {
 class Consumer implements Runnable {
 	Queue<Integer> queue;
 
-	public class Consumer(Queue<Integer> queue) {
+	public Consumer(Queue<Integer> queue) {
 		this.queue = queue;
 	}
 
@@ -238,7 +238,7 @@ class Consumer implements Runnable {
 
 public class Test {
 	public static void main(String[] args) {
-		Queue<Integer> queue = new ArrayBlockingQueue<>(5);
+		Queue<Integer> queue = new ArrayBlockingQueue<>(5); // if abq, just take and put?
 
 		Thread producer = new Thread(new Producer(queue, 5));
 		Thread consumer = new Thread(new Consumer(queue));
@@ -258,6 +258,5 @@ public class Test {
 
 ####
 
-\
-
+<br>
 
