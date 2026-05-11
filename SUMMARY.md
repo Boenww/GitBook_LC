@@ -214,6 +214,13 @@
   * [9. Greedy](algorithms/9.-greedy.md)
   * [10. Divide & Conquer](algorithms/10.-divide-and-conquer.md)
   * [11. Union Find](algorithms/11.-union-find.md)
+
+## AI
+
+* [Agent](ai/agent.md)
+
+***
+
 * [General Knowledge](general-knowledge/README.md)
   * [Web](general-knowledge/web.md)
   * [Nginx](general-knowledge/nginx.md)
