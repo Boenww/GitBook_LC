@@ -76,13 +76,15 @@ B-/+ tree reading [https://mp.weixin.qq.com/s/RWkc2lNarKnn8Dc0HrP58g](https://mp
 
 在不影响数据一致性的前提下，如果内存中没有需要更新的数据页，InnoDB会把更新操作缓存在change buffer中，在下次查询需要访问这个数据页的时候，将其读入内存并执行change buffer中与其有关的操作。唯一性索引更新不能使用。适用于写多读少的业务如账单、日志类的系统。
 
-### binlog & redo log
+### binlog & redo log & undo log
 
 binlog可以实现主从复制和数据恢复。
 
 binlog需要配合redo log才可以crash safe。
 
-binlog是追加日志，保存的是全量的日志。redo log是循环写，只会记录未刷盘的日志。每次更新操作完成后，就一定会写入日志，如果写入失败，事务也不可能提交。
+binlog是追加日志，保存的是全量的日志。redo log是循环写，只会记录未刷盘的日志。每次更新操作完成后，就一定会写入日志，如果写入失败，事务也不可能提交。rodo log是存储引擎层，binlog是server层。
+
+undolog: 用于rollback和MVCC读取历史版本。
 
 ### 2PC
 
