@@ -1,6 +1,6 @@
 # 1. Hash Table
 
-![](<../../.gitbook/assets/1861542479286\_.pic\_hd (1).jpg>)
+![](<../../.gitbook/assets/1861542479286_.pic_hd (1).jpg>)
 
 ## Get && Set
 
@@ -8,13 +8,13 @@ O(size of key)
 
 ## Open Hashing
 
-是指哈希表所基于的数组中，每个位置是一个 Linked List 的头结点。这样冲突的 \<key, value> 二元组，就都放在同一个链表中。
+是指哈希表所基于的数组中，每个位置是一个 Linked List 的头结点。这样冲突的 \<key, value> 二元组，就都放在同一个链表中。Open or close refers the whether the storage is open-ended or closed to the table.
 
-## Close Hashing&#x20;
+## Closed Hashing&#x20;
 
 是指在发生冲突的时候，后来的元素，往下一个位置去找空位。
 
-![](<../../.gitbook/assets/1871542479518\_.pic\_hd (1).jpg>)
+![](<../../.gitbook/assets/1871542479518_.pic_hd (1).jpg>)
 
 ## Collision
 
